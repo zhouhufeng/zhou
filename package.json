@@ -1,0 +1,29 @@
+{
+  "name": "zhou-homepage",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Hufeng Zhou — personal academic homepage (zhou.genohub.org)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node scripts/gen_sitemap.mjs",
+    "preview": "vite preview --port 4174",
+    "refresh": "python3 scripts/scrape.py --force && python3 scripts/extract_content.py && python3 scripts/fetch_metrics.py && python3 scripts/fetch_images.py",
+    "metrics": "python3 scripts/fetch_metrics.py"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.2"
+  }
+}

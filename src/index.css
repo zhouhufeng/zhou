@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper font-sans text-[17px] leading-relaxed text-slate antialiased;
+  }
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-copper;
+  }
+}
+
+@layer components {
+  /* One home for the styling of every rich-text body extracted from the source
+     site, so all pages read the same. */
+  .rich {
+    @apply text-[1.0625rem] leading-[1.75] text-slate;
+  }
+  .rich > * + * {
+    @apply mt-4;
+  }
+  .rich h3 {
+    @apply mt-8 font-display text-xl font-semibold text-ink;
+  }
+  .rich h4 {
+    @apply mt-6 text-sm font-semibold uppercase tracking-[0.12em] text-mute;
+  }
+  .rich a {
+    @apply font-medium text-copper underline decoration-copper/30 underline-offset-2
+           transition-colors hover:decoration-copper;
+  }
+  .rich strong {
+    @apply font-semibold text-ink;
+  }
+  .rich ul {
+    @apply space-y-2 pl-5;
+    list-style: none;
+  }
+  .rich ul > li {
+    @apply relative;
+  }
+  .rich ul > li::before {
+    content: '';
+    @apply absolute -left-5 top-[0.7em] h-1.5 w-1.5 rounded-full bg-copper-2;
+  }
+  .rich ol {
+    @apply list-decimal space-y-2 pl-6 marker:text-mute;
+  }
+
+  /* Small caps-ish label used above every heading, mirroring the source site's
+     "kicker" pattern. */
+  .kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.18em] text-copper;
+  }
+}

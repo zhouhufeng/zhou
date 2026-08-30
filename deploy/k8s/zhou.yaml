@@ -1,0 +1,151 @@
+# zhou.genohub.org — Hufeng Zhou's homepage on the K3s node.
+#
+# The site is static, so this is deliberately boring: nginx serves files that
+# scripts/deploy.sh rsyncs onto the node. No image build, no registry.
+#
+#   /srv/zhou/releases/<timestamp>/   one build each
+#   /srv/zhou/current -> releases/…   symlink, flipped atomically on deploy
+#
+# This is the second site in the `web` namespace (after lin.genohub.org), which
+# already exists — so no Namespace object here.
+#
+# hostPath is the right tool here precisely because the cluster is one node —
+# the same reason the FAVOR data tier is not HA either. If a second node is ever
+# added, swap the hostPath for a small ReadWriteMany volume or bake an image.
+#
+# TLS: like every other Ingress in this cluster, Traefik serves its self-signed
+# certificate and Cloudflare terminates for the browser. That needs the zone's
+# SSL mode on **Full**, not Full (strict) — see infrastructure repo
+# Docs/CloudFlare/config.md. It already is.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: zhou-nginx
+  namespace: web
+data:
+  default.conf: |
+    server {
+      listen 8080;
+      server_name _;
+
+      root /site/current;
+      index index.html;
+
+      # Client-side routing: every unknown path is a React Router route, so it
+      # must return index.html with a 200, not a 404.
+      location / {
+        try_files $uri $uri/ /index.html;
+      }
+
+      # Vite fingerprints these filenames, so they can be cached forever.
+      location /assets/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        try_files $uri =404;
+      }
+
+      location /images/ {
+        expires 30d;
+        add_header Cache-Control "public";
+        try_files $uri =404;
+      }
+
+      # index.html must never be cached, or a deploy is invisible until the
+      # browser gives up on its copy.
+      location = /index.html {
+        add_header Cache-Control "no-cache, must-revalidate";
+      }
+
+      location = /healthz {
+        access_log off;
+        return 200 "ok\n";
+      }
+
+      gzip on;
+      gzip_types text/plain text/css application/javascript application/json image/svg+xml;
+      gzip_min_length 1024;
+
+      add_header X-Content-Type-Options nosniff;
+      add_header X-Frame-Options SAMEORIGIN;
+      add_header Referrer-Policy strict-origin-when-cross-origin;
+    }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zhou
+  namespace: web
+  labels: {app: zhou}
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: zhou}
+  template:
+    metadata:
+      labels: {app: zhou}
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.27-alpine
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - {name: site, mountPath: /site, readOnly: true}
+            - {name: conf, mountPath: /etc/nginx/conf.d}
+            - {name: cache, mountPath: /var/cache/nginx}
+            - {name: run, mountPath: /var/run}
+          readinessProbe:
+            httpGet: {path: /healthz, port: 8080}
+            initialDelaySeconds: 2
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: {path: /healthz, port: 8080}
+            initialDelaySeconds: 10
+            periodSeconds: 30
+          resources:
+            requests: {cpu: 10m, memory: 32Mi}
+            limits: {cpu: 500m, memory: 128Mi}
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 101          # nginx user in the alpine image
+            allowPrivilegeEscalation: false
+            capabilities: {drop: ["ALL"]}
+      volumes:
+        - name: site
+          hostPath: {path: /srv/zhou, type: Directory}
+        - name: conf
+          configMap: {name: zhou-nginx}
+        - name: cache
+          emptyDir: {}
+        - name: run
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: zhou
+  namespace: web
+spec:
+  selector: {app: zhou}
+  ports:
+    - {name: http, port: 80, targetPort: 8080}
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: zhou
+  namespace: web
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure,web
+spec:
+  rules:
+    # Needs a Cloudflare A record: lin -> ORIGIN_IP, proxied.
+    - host: zhou.genohub.org
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: zhou
+                port: {number: 80}

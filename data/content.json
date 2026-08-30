@@ -1,0 +1,2841 @@
+{
+  "pages": {
+    "index": {
+      "route": "/",
+      "kicker": "Academic job market candidate",
+      "title": "Hufeng Zhou, PhD",
+      "lede": "I build statistical methods, functional annotation resources, and production-quality software for understanding human genetic variation and disease mechanisms at whole-genome scale.",
+      "heroActions": [
+        {
+          "label": "View Publications",
+          "href": "/publications"
+        },
+        {
+          "label": "Download CV",
+          "href": "https://zhouhufeng.github.io/HZHOU-CV-Jan24th2026.docx"
+        },
+        {
+          "label": "Research Program",
+          "href": "/research"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/zhouhufeng"
+        },
+        {
+          "label": "Contact",
+          "href": "mailto:hufengzhou@g.harvard.edu"
+        }
+      ],
+      "heroStats": [
+        {
+          "value": "45+",
+          "label": "peer-reviewed publications"
+        },
+        {
+          "value": "15+",
+          "label": "years in computational biology"
+        },
+        {
+          "value": "3",
+          "label": "editorial service roles"
+        },
+        {
+          "value": "2026",
+          "label": "CV and publications updated"
+        }
+      ],
+      "heroImage": "/images/hero-mountains.jpg",
+      "sections": [
+        {
+          "kicker": "Profile",
+          "heading": "Computational biology for genomic medicine",
+          "lede": "My work connects statistical genetics, functional genomics, and robust software systems so large-scale sequencing studies can move from raw variants to biological insight.",
+          "tags": [
+            "Statistical genetics",
+            "Whole-genome sequencing",
+            "Functional annotation",
+            "Biomedical AI agents",
+            "AI and digital pathology",
+            "EBV epigenomics",
+            "Scientific software"
+          ],
+          "alt": false,
+          "prose": "<p>Research Scientist, Harvard T.H. Chan School of Public Health; former Instructor, Harvard Medical School and Brigham and Women's Hospital.</p><p>I focus on annotation-informed rare-variant association methods, functional annotation resources such as FAVOR, EBV-associated cancer epigenomics, biomedical AI agents, AI-driven genomic and pathology data science, host-pathogen computational biology, and software infrastructure that helps research consortia analyze large sequencing datasets.</p>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/hufeng-zhou-portrait.jpg",
+          "imageAlt": "Hufeng Zhou"
+        },
+        {
+          "kicker": "Biomedical AI agents",
+          "heading": "Local, auditable agents for genomic discovery",
+          "lede": "I am creating AI agents for biomedical research applications, including IGVFagent, a local and auditable agent for discovering, retrieving, and analyzing data from the IGVF ecosystem and related public resources.",
+          "tags": [],
+          "alt": false,
+          "prose": "<p>IGVFagent is designed to work across the IGVF Portal, Catalog, Knowledge Graph, ENCODE, FAVOR, publications, assay data, and analysis tools while keeping the reasoning path inspectable through a Plan → Action → Results → Evaluation loop.</p><ul><li>Variant scoring and interpretation</li><li>Multi-omic integration and enhancer-gene mapping</li><li>Fine-mapping, trajectory inference, and cross-tissue analysis</li><li>Evidence cross-checking, provenance, and human feedback</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [
+            {
+              "label": "AI agent research",
+              "href": "/research/ai-genomics"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/zhouhufeng"
+            }
+          ],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Research",
+          "heading": "A coherent program from methods to mechanisms",
+          "lede": "These areas connect statistical genetics, functional annotation, AI, epigenomics, software infrastructure, and host-pathogen systems biology.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [
+            {
+              "title": "Population genetics and rare variants",
+              "image": "/images/STAARpipe.jpg",
+              "imageAlt": "Population genetics and rare variants",
+              "html": "<p>Scalable methods for large whole-genome sequencing studies, with emphasis on rare-variant association testing, noncoding regions, multi-trait analysis, time-to-event outcomes, and biobank-scale inference.</p><a href=\"/research/population-genetics\">Explore project</a>",
+              "href": "/research/population-genetics",
+              "linkLabel": ""
+            },
+            {
+              "title": "Variant annotation infrastructure",
+              "image": "/images/FAVOR.jpg",
+              "imageAlt": "Variant annotation infrastructure",
+              "html": "<p>FAVOR, FAVOR 2.0, FAVORannotator, and FAVOR-GPT translate genome-wide functional annotation into searchable resources and analysis-ready formats for human genetics.</p><a href=\"/research/favor\">Explore project</a>",
+              "href": "/research/favor",
+              "linkLabel": ""
+            },
+            {
+              "title": "EBV epigenomics and gene regulation",
+              "image": "/images/portfolio/EBVregulome.jpg",
+              "imageAlt": "EBV epigenomics and gene regulation",
+              "html": "<p>Integrative genomic studies of Epstein-Barr virus transcriptional regulation, super-enhancers, enhancer RNAs, viral oncoproteins, and host chromatin architecture.</p><a href=\"/research/epigenomics\">Explore project</a>",
+              "href": "/research/epigenomics",
+              "linkLabel": ""
+            },
+            {
+              "title": "AI agents, genomics, and digital pathology",
+              "image": "/images/STAARpipe2.jpg",
+              "imageAlt": "AI agents, genomics, and digital pathology",
+              "html": "<p>Local, auditable AI agents plus machine-learning and deep-learning systems for variant interpretation, multi-omic integration, WGS quality control, and H&amp;E pathology risk modeling.</p><a href=\"/research/ai-genomics\">Explore project</a>",
+              "href": "/research/ai-genomics",
+              "linkLabel": ""
+            },
+            {
+              "title": "Host-pathogen computational biology",
+              "image": "/images/portfolio/Homology.jpg",
+              "imageAlt": "Host-pathogen computational biology",
+              "html": "<p>Computational approaches for protein-protein interaction prediction, pathway data integration, microbial systems biology, and molecular diagnostic collaborations.</p><a href=\"/research/protein-interactions\">Explore project</a>",
+              "href": "/research/protein-interactions",
+              "linkLabel": ""
+            },
+            {
+              "title": "Scientific software and reproducible pipelines",
+              "image": "/images/wgsagent.svg",
+              "imageAlt": "Scientific software and reproducible pipelines",
+              "html": "<p>Open software, AI agents, data resources, and analysis pipelines that turn statistical methods into practical tools for large consortia and biomedical collaborators.</p><a href=\"/software\">Explore project</a>",
+              "href": "/software",
+              "linkLabel": ""
+            }
+          ],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Recent publications",
+          "heading": "Updated publication record",
+          "lede": "Recent papers now include 2024-2026 publications from PubMed/ORCID and publisher-indexed records.",
+          "tags": [],
+          "alt": false,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2026",
+              "title": "Scalable and accurate rare-variant association tests for whole genome sequencing time-to-event analysis in large biobanks.",
+              "authors": "Song S, Li X, Zhou H, Li Z, Lin X.",
+              "venue": "Proc Natl Acad Sci U S A. 2026;123(9):e2525288123.",
+              "doi": "https://doi.org/10.1073/pnas.2525288123",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41758668/",
+              "highlight": true,
+              "citedBy": 0
+            },
+            {
+              "year": "2026",
+              "title": "Comparison of variant callers using 60,532 multi-ancestry whole genome sequences.",
+              "authors": "Zhou H, Li Z, Shyr D, Li X, Yang H, Dey R, Tang Y, Maier R, Boerwinkle E, Buyske S, Daly M, Felsenfeld A, Gibbs RA, Gupta N, Hall IM, Matise T, Metcalf GA, Smith A, Reeves C, Sofia HJ, Stitziel NO, Zody MC, NHGRI Genome Sequencing Program Consortium, Neale B, Lin X.",
+              "venue": "Brief Bioinform. 2026;27(2).",
+              "doi": "https://doi.org/10.1093/bib/bbag130",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41894165/",
+              "highlight": true,
+              "citedBy": 0
+            },
+            {
+              "year": "2026",
+              "title": "cellSTAAR: incorporating single-cell-sequencing-based functional data to boost power in rare variant association testing of noncoding regions.",
+              "authors": "Van Buren E, Zhang Y, Li X, Selvaraj MS, Li Z, Zhou H, Palmer ND, Arnett DK, Blangero J, Boerwinkle E, Cade BE, Carlson JC, Carson AP, Chen YI, Curran J, Duggirala R, Fornage M, Franceschini N, Graff M, Gu C, Guo X, He J, Heard-Cosa N, Hou L, Hung YJ, Kalyani RR, Kardia SLR, Kenny E, Kooperberg C, Kral BG, Lange L, Levy D, Li C, Liu S, Lloyd-Jones D, Loos RJF, Manichaikul AW, Martin LW, Mathias R, Minster RL, Mitchell BD, Mychaleckyj JC, Naseri T, North K, O'Connell J, Perry JA, Peyser PA, Psaty BM, Raffield LM, Vasan RS, Redline S, Reiner AP, Rich SS, Smith JA, Spitzer B, Tang H, Taylor KD, Tracy R, Viali S, Yanek L, Zhao W, NHLBI TOPMed Consortium, Rotter JI, Peloso GM, Natarajan P, Lin X.",
+              "venue": "Nat Methods. 2026;23(2):338-349.",
+              "doi": "https://doi.org/10.1038/s41592-025-02919-5",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41476111/",
+              "highlight": true,
+              "citedBy": 2
+            },
+            {
+              "year": "2026",
+              "title": "FAVOR 2.0: A reengineered functional annotation of variants online resource for interpreting genomic variation.",
+              "authors": "Zhou H, Verma V, Li X, Li Z, Shedd N, Li TC, Yang H, Zhang A, Borsari B, Buyske S, Gerstein M, Matise T, Zody MC, Neale B, Weng Z, Sunyaev SR, Lin X.",
+              "venue": "Nucleic Acids Res. 2026;54(D1):D1405-D1414.",
+              "doi": "https://doi.org/10.1093/nar/gkaf1217",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41335103/",
+              "highlight": true,
+              "citedBy": 2
+            },
+            {
+              "year": "2025",
+              "title": "A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies.",
+              "authors": "Li X, Chen H, Selvaraj MS, Van Buren E, Zhou H, Wang Y, Sun R, McCaw ZR, Yu Z, Jiang MZ, DiCorpo D, Gaynor SM, Dey R, Arnett DK, Benjamin EJ, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Carson AP, Carlson JC, Chami N, Chen YI, Curran JE, de Vries PS, Fornage M, Franceschini N, Freedman BI, Gu C, Heard-Costa NL, He J, Hou L, Hung YJ, Irvin MR, Kaplan RC, Kardia SLR, Kelly TN, Konigsberg I, Kooperberg C, Kral BG, Li C, Li Y, Lin H, Liu CT, Loos RJF, Mahaney MC, Martin LW, Mathias RA, Mitchell BD, Montasser ME, Morrison AC, Naseri T, North KE, Palmer ND, Peyser PA, Psaty BM, Redline S, Reiner AP, Rich SS, Sitlani CM, Smith JA, Taylor KD, Tiwari HK, Vasan RS, Viali S, Wang Z, Wessel J, Yanek LR, Yu B, NHLBI TOPMed Consortium, Dupuis J, Meigs JB, Auer PL, Raffield LM, Manning AK, Rice KM, Rotter JI, Peloso GM, Natarajan P, Li Z, Liu Z, Lin X.",
+              "venue": "Nat Comput Sci. 2025;5(2):125-143.",
+              "doi": "https://doi.org/10.1038/s43588-024-00764-8",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39920506/",
+              "highlight": true,
+              "citedBy": 10
+            }
+          ],
+          "actions": [
+            {
+              "label": "Full publication list",
+              "href": "/publications"
+            },
+            {
+              "label": "Google Scholar",
+              "href": "https://scholar.google.com/citations?user=Ddw_B4EAAAAJ&hl=en"
+            }
+          ],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Software and resources",
+          "heading": "Tools that make genome-scale studies usable",
+          "lede": "FAVOR, FAVORannotator, STAAR, STAARpipeline, WGSagent, and cellSTAAR show a consistent thread: methods that are not only statistically rigorous, but usable by large collaborations.",
+          "tags": [],
+          "alt": false,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [
+            {
+              "label": "Software portfolio",
+              "href": "/software"
+            }
+          ],
+          "image": "/images/FAVOR.jpg",
+          "imageAlt": "FAVOR interface and annotation resource"
+        }
+      ]
+    },
+    "about": {
+      "route": "/about",
+      "kicker": "Research profile",
+      "title": "About",
+      "lede": "A computational biologist and engineer working across statistical genetics, functional genomics, and biomedical software.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Biography",
+          "heading": "From biological questions to scalable computation",
+          "lede": "My research is driven by a practical question: how can we turn increasingly massive genomic datasets into interpretable biological and medical discoveries?",
+          "tags": [],
+          "alt": false,
+          "prose": "<p>Dr. Hufeng Zhou is a Research Scientist in the Department of Biostatistics at the Harvard T.H. Chan School of Public Health and previously served as an Instructor/Junior Faculty Member at Harvard Medical School and Brigham and Women's Hospital. His work spans human population genetics, functional annotation of genetic variants, EBV-associated cancer epigenomics, pathway data integration, protein-protein interaction prediction, AI-driven genomic analysis, digital pathology, and scientific software engineering.</p><p>Across these areas, the common theme is building rigorous computational methods and usable research infrastructure for complex biological data. This includes rare-variant association methods for whole-genome sequencing studies, annotation resources such as FAVOR, and integrative genomic analyses of viral and host regulatory programs.</p>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [
+            {
+              "label": "Download CV",
+              "href": "https://zhouhufeng.github.io/HZHOU-CV-Jan24th2026.docx"
+            }
+          ],
+          "image": "/images/hufeng-zhou-portrait.jpg",
+          "imageAlt": "Hufeng Zhou portrait"
+        },
+        {
+          "kicker": "Research agenda",
+          "heading": "What I am building next",
+          "lede": "The research program is organized around methods, translation, and reusable infrastructure for genomic medicine.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [
+            {
+              "title": "Methods",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Develop scalable and interpretable statistical methods for rare variants, multi-ancestry sequencing studies, functional annotation, and biobank-scale outcomes.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "AI and translation",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Apply machine learning and deep learning to variant annotation, WGS quality control, multi-omic integration, and H&amp;E whole-slide pathology analysis.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "Infrastructure",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Build open, maintainable tools and databases that help scientists query, annotate, visualize, and analyze genome-scale data.</p>",
+              "href": "",
+              "linkLabel": ""
+            }
+          ],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Expertise",
+          "heading": "Technical and scientific strengths",
+          "lede": "Core areas of expertise across computation, genomics, software engineering, and collaborative biomedical science.",
+          "tags": [],
+          "alt": false,
+          "prose": "",
+          "cards": [
+            {
+              "title": "Computational biology",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Whole-genome sequencing, variant annotation, population genetics, rare-variant association, multi-omics integration, and disease genomics.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "Functional genomics",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Epigenomics, enhancer biology, transcriptional regulation, EBV-associated cancers, 3D genome organization, and regulome construction.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "Software engineering",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Research databases, web portals, command-line tools, R packages, data pipelines, visualization systems, and production-minded scientific workflows.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "Collaborative science",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Consortium-scale analyses across TOPMed, GSP, population studies, cancer genetics, sleep genomics, and biomedical informatics collaborations.</p>",
+              "href": "",
+              "linkLabel": ""
+            }
+          ],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Career",
+          "heading": "Appointments, education, service, and honors",
+          "lede": "A concise view of training, Harvard appointments, editorial service, and honors.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Recognition",
+          "heading": "Awards and editorial service",
+          "lede": "These details help round out the job-market profile beyond publications alone.",
+          "tags": [],
+          "alt": false,
+          "prose": "",
+          "cards": [
+            {
+              "title": "Awards and honors",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Career Development Grant Fellow, Leukemia &amp; Lymphoma Society, 2015-2018. NGS Scholarship, National University of Singapore, 2009-2013.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "Editorial service",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Genetics Section Editor-in-Chief, Heliyon, Cell Press. Editor, BMC Genomics Data, Springer Nature. Editor, Microbial Immunology, Frontiers in Immunology.</p>",
+              "href": "",
+              "linkLabel": ""
+            }
+          ],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "publications": {
+      "route": "/publications",
+      "kicker": "Updated May 2026",
+      "title": "Publications",
+      "lede": "Peer-reviewed publications across statistical genetics, functional annotation, EBV epigenomics, host-pathogen biology, and biomedical data science.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "",
+          "heading": "",
+          "lede": "",
+          "tags": [],
+          "alt": false,
+          "prose": "<p><strong>Update note.</strong> The recent publication list was refreshed from PubMed records associated with ORCID 0000-0001-9382-5674, publisher-indexed records, and the existing site bibliography. Google Scholar remains linked for live citation metrics.</p><p><a href=\"https://scholar.google.com/citations?user=Ddw_B4EAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar profile</a><a href=\"https://orcid.org/0000-0001-9382-5674\" rel=\"noopener noreferrer\" target=\"_blank\">ORCID</a><a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=0000-0001-9382-5674\" rel=\"noopener noreferrer\" target=\"_blank\">PubMed search</a></p>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Selected",
+          "heading": "Representative publications",
+          "lede": "A short list for search committees and collaborators who need the main signal first.",
+          "tags": [],
+          "alt": false,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2026",
+              "title": "Scalable and accurate rare-variant association tests for whole genome sequencing time-to-event analysis in large biobanks.",
+              "authors": "Song S, Li X, Zhou H, Li Z, Lin X.",
+              "venue": "Proc Natl Acad Sci U S A. 2026;123(9):e2525288123.",
+              "doi": "https://doi.org/10.1073/pnas.2525288123",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41758668/",
+              "highlight": true,
+              "citedBy": 0
+            },
+            {
+              "year": "2026",
+              "title": "Comparison of variant callers using 60,532 multi-ancestry whole genome sequences.",
+              "authors": "Zhou H, Li Z, Shyr D, Li X, Yang H, Dey R, Tang Y, Maier R, Boerwinkle E, Buyske S, Daly M, Felsenfeld A, Gibbs RA, Gupta N, Hall IM, Matise T, Metcalf GA, Smith A, Reeves C, Sofia HJ, Stitziel NO, Zody MC, NHGRI Genome Sequencing Program Consortium, Neale B, Lin X.",
+              "venue": "Brief Bioinform. 2026;27(2).",
+              "doi": "https://doi.org/10.1093/bib/bbag130",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41894165/",
+              "highlight": true,
+              "citedBy": 0
+            },
+            {
+              "year": "2026",
+              "title": "cellSTAAR: incorporating single-cell-sequencing-based functional data to boost power in rare variant association testing of noncoding regions.",
+              "authors": "Van Buren E, Zhang Y, Li X, Selvaraj MS, Li Z, Zhou H, Palmer ND, Arnett DK, Blangero J, Boerwinkle E, Cade BE, Carlson JC, Carson AP, Chen YI, Curran J, Duggirala R, Fornage M, Franceschini N, Graff M, Gu C, Guo X, He J, Heard-Cosa N, Hou L, Hung YJ, Kalyani RR, Kardia SLR, Kenny E, Kooperberg C, Kral BG, Lange L, Levy D, Li C, Liu S, Lloyd-Jones D, Loos RJF, Manichaikul AW, Martin LW, Mathias R, Minster RL, Mitchell BD, Mychaleckyj JC, Naseri T, North K, O'Connell J, Perry JA, Peyser PA, Psaty BM, Raffield LM, Vasan RS, Redline S, Reiner AP, Rich SS, Smith JA, Spitzer B, Tang H, Taylor KD, Tracy R, Viali S, Yanek L, Zhao W, NHLBI TOPMed Consortium, Rotter JI, Peloso GM, Natarajan P, Lin X.",
+              "venue": "Nat Methods. 2026;23(2):338-349.",
+              "doi": "https://doi.org/10.1038/s41592-025-02919-5",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41476111/",
+              "highlight": true,
+              "citedBy": 2
+            },
+            {
+              "year": "2026",
+              "title": "FAVOR 2.0: A reengineered functional annotation of variants online resource for interpreting genomic variation.",
+              "authors": "Zhou H, Verma V, Li X, Li Z, Shedd N, Li TC, Yang H, Zhang A, Borsari B, Buyske S, Gerstein M, Matise T, Zody MC, Neale B, Weng Z, Sunyaev SR, Lin X.",
+              "venue": "Nucleic Acids Res. 2026;54(D1):D1405-D1414.",
+              "doi": "https://doi.org/10.1093/nar/gkaf1217",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41335103/",
+              "highlight": true,
+              "citedBy": 2
+            },
+            {
+              "year": "2025",
+              "title": "A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies.",
+              "authors": "Li X, Chen H, Selvaraj MS, Van Buren E, Zhou H, Wang Y, Sun R, McCaw ZR, Yu Z, Jiang MZ, DiCorpo D, Gaynor SM, Dey R, Arnett DK, Benjamin EJ, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Carson AP, Carlson JC, Chami N, Chen YI, Curran JE, de Vries PS, Fornage M, Franceschini N, Freedman BI, Gu C, Heard-Costa NL, He J, Hou L, Hung YJ, Irvin MR, Kaplan RC, Kardia SLR, Kelly TN, Konigsberg I, Kooperberg C, Kral BG, Li C, Li Y, Lin H, Liu CT, Loos RJF, Mahaney MC, Martin LW, Mathias RA, Mitchell BD, Montasser ME, Morrison AC, Naseri T, North KE, Palmer ND, Peyser PA, Psaty BM, Redline S, Reiner AP, Rich SS, Sitlani CM, Smith JA, Taylor KD, Tiwari HK, Vasan RS, Viali S, Wang Z, Wessel J, Yanek LR, Yu B, NHLBI TOPMed Consortium, Dupuis J, Meigs JB, Auer PL, Raffield LM, Manning AK, Rice KM, Rotter JI, Peloso GM, Natarajan P, Li Z, Liu Z, Lin X.",
+              "venue": "Nat Comput Sci. 2025;5(2):125-143.",
+              "doi": "https://doi.org/10.1038/s43588-024-00764-8",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39920506/",
+              "highlight": true,
+              "citedBy": 10
+            },
+            {
+              "year": "2024",
+              "title": "FAVOR-GPT: a generative natural language interface to whole genome variant functional annotations.",
+              "authors": "Li TC, Zhou H, Verma V, Tang X, Shao Y, Van Buren E, Weng Z, Gerstein M, Neale B, Sunyaev SR, Lin X.",
+              "venue": "Bioinform Adv. 2024;4(1):vbae143.",
+              "doi": "https://doi.org/10.1093/bioadv/vbae143",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39387060/",
+              "highlight": true,
+              "citedBy": 10
+            },
+            {
+              "year": "2023",
+              "title": "FAVOR: functional annotation of variants online resource and annotator for variation across the human genome.",
+              "authors": "Zhou H, Arapoglou T, Li X, Li Z, Zheng X, Moore J, Asok A, Kumar S, Blue EE, Buyske S, Cox N, Felsenfeld A, Gerstein M, Kenny E, Li B, Matise T, Philippakis A, Rehm HL, Sofia HJ, Snyder G, Weng Z, Neale B, Sunyaev SR, Lin X.",
+              "venue": "Nucleic Acids Res. 2023;51(D1):D1300-D1311.",
+              "doi": "https://doi.org/10.1093/nar/gkac966",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36350676/",
+              "highlight": true,
+              "citedBy": 150
+            },
+            {
+              "year": "2023",
+              "title": "Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies.",
+              "authors": "Li X, Quick C, Zhou H, Gaynor SM, Liu Y, Chen H, Selvaraj MS, Sun R, Dey R, Arnett DK, Bielak LF, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Freedman BI, Goring HH, Guo X, Haessler J, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Manichaikul A, Martin LW, McGarvey ST, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Sitlani CM, Smith JA, Taylor KD, Vasan RS, Willer CJ, Wilson JG, Yanek LR, Zhao W, TOPMed Consortium, Rotter JI, Natarajan P, Peloso GM, Li Z, Lin X.",
+              "venue": "Nat Genet. 2023;55(1):154-164.",
+              "doi": "https://doi.org/10.1038/s41588-022-01225-6",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36564505/",
+              "highlight": true,
+              "citedBy": 65
+            },
+            {
+              "year": "2022",
+              "title": "A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.",
+              "authors": "Li Z, Li X, Zhou H, Gaynor SM, Selvaraj MS, Arapoglou T, Quick C, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Auer PL, Bielak LF, Bis JC, Blackwell T, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Conomos MP, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Franceschini N, Freedman BI, Goring HH, Guo X, Kalyani RR, Kooperberg C, Kral BG, Lange L, Lin B, Manichaikul A, Manning A, Martin LW, Mathias R, Meigs JB, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell J, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich S, Smith J, Taylor KD, Taub M, Vasan RS, Weeks D, Wilson J, Yanek L, Zhao W, TOPMed Group, Rotter J, Willer C, Natarajan P, Peloso G, Lin X.",
+              "venue": "Nat Methods. 2022;19:1599-1611.",
+              "doi": "https://doi.org/10.1038/s41592-022-01640-x",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 114
+            },
+            {
+              "year": "2020",
+              "title": "Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.",
+              "authors": "Li X, Li Z, Zhou H, Gaynor SM, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Aslibekyan S, Ballantyne CM, Bielak LF, Blangero J, Boerwinkle E, Bowden DW, Broome JG, Conomos MP, Correa A, Cupples LA, Curran JE, Freedman BI, Guo X, Hindy G, Irvin MR, Kardia SLR, Kathiresan S, Khan AT, Kooperberg CL, Laurie CC, Liu XS, Mahaney MC, Manichaikul AW, Martin LW, Mathias RA, McGarvey ST, Mitchell BD, Montasser ME, Moore J, Morrison AC, O'Connell JR, Palmer ND, Pampana A, Peralta JM, Peyser PA, Psaty BM, Redline S, Rice KM, Rich SS, Smith JA, Tiwari HK, Tsai MY, Vasan RS, Wang FF, Weeks DE, Weng Z, Wilson JG, Yanek LR, TOPMed Consortium, Neale BM, Sunyaev SR, Abecasis GR, Rotter JI, Willer CJ, Peloso GM, Natarajan P, Lin X.",
+              "venue": "Nat Genet. 2020;52(9):969-983.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 300
+            },
+            {
+              "year": "2018",
+              "title": "Epstein-Barr Virus Nuclear Antigen Leader Protein coactivates EP300.",
+              "authors": "Wang C, Zhou H*, Xue Y, Liang J, Narita Y, Gerdt C, Zheng AY, Jiang R, Trudeau S, Peng CW, Gewurz BE.",
+              "venue": "J Virol. 2018;92(9):e02155-17.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 28
+            },
+            {
+              "year": "2017",
+              "title": "The Epstein-Barr virus regulome in lymphoblastoid cells.",
+              "authors": "Jiang S, Zhou H*, Liang J, Gerdt C, Wang C, Ke L, Schmidt SC, Narita Y, Ma Y, Wang S, Colson T.",
+              "venue": "Cell Host Microbe. 2017;22(4):561-573.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 128
+            },
+            {
+              "year": "2015",
+              "title": "Epstein-Barr virus oncoprotein super-enhancers control B cell growth.",
+              "authors": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B.",
+              "venue": "Cell Host Microbe. 2015;17(2):205-216.",
+              "doi": "https://doi.org/10.1016/j.chom.2014.12.013",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25639793/",
+              "highlight": true,
+              "citedBy": 187
+            },
+            {
+              "year": "2014",
+              "title": "Stringent homology-based prediction of H. sapiens-M. tuberculosis H37Rv protein-protein interactions.",
+              "authors": "Zhou H, Gao S, Nguyen NN, Fan M, Jin J, Liu B, Zhao L, Xiong G, Tan M, Li S, Wong L.",
+              "venue": "Biol Direct. 2014;9:5.",
+              "doi": "https://doi.org/10.1186/1745-6150-9-5",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 74
+            },
+            {
+              "year": "2013",
+              "title": "Epstein-Barr virus nuclear antigen leader protein localizes to promoters and enhancers with cell transcription factors and EBNA2.",
+              "authors": "Portal D*, Zhou H*, Zhao B, Kharchenko PV, Lowry E, Wong L, Quackenbush J, Holloway D, Jiang S, Lu Y, Kieff E.",
+              "venue": "Proc Natl Acad Sci U S A. 2013;110(46):18537-18542.",
+              "doi": "https://doi.org/10.1073/pnas.1317608110",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24167291/",
+              "highlight": true,
+              "citedBy": 76
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Full list",
+          "heading": "Chronological bibliography",
+          "lede": "Recent peer-reviewed records appear first, followed by earlier publications across genomics, epigenomics, and computational biology.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2026",
+              "title": "Scalable and accurate rare-variant association tests for whole genome sequencing time-to-event analysis in large biobanks.",
+              "authors": "Song S, Li X, Zhou H, Li Z, Lin X.",
+              "venue": "Proc Natl Acad Sci U S A. 2026;123(9):e2525288123.",
+              "doi": "https://doi.org/10.1073/pnas.2525288123",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41758668/",
+              "highlight": true,
+              "citedBy": 0
+            },
+            {
+              "year": "2026",
+              "title": "Comparison of variant callers using 60,532 multi-ancestry whole genome sequences.",
+              "authors": "Zhou H, Li Z, Shyr D, Li X, Yang H, Dey R, Tang Y, Maier R, Boerwinkle E, Buyske S, Daly M, Felsenfeld A, Gibbs RA, Gupta N, Hall IM, Matise T, Metcalf GA, Smith A, Reeves C, Sofia HJ, Stitziel NO, Zody MC, NHGRI Genome Sequencing Program Consortium, Neale B, Lin X.",
+              "venue": "Brief Bioinform. 2026;27(2).",
+              "doi": "https://doi.org/10.1093/bib/bbag130",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41894165/",
+              "highlight": true,
+              "citedBy": 0
+            },
+            {
+              "year": "2026",
+              "title": "A multi-ancestry genetic reference for the Quebec population.",
+              "authors": "McClelland P, Femerling G, Laflamme R, Mejia-Garcia A, Sayahian Dehkordi M, Xiao H, Diaz-Papkovich A, Pelletier J, Grenier JC, Lo KS, Anderson-Trocme L, Bellavance J, Chapdelaine V, Gagnon G, De Mori A, Martinez G, Mohler K, de Malliard T, Labbe C, Labrecque M, Montpetit A, Spiegelman D, Rouleau GA, Theroux JF, Zhou H, Girard SL, Hussin JG, Laberge AM, Bherer C, Tetreault M, Gagliano Taliun SA, Taliun D, Gravel S, Lettre G.",
+              "venue": "Nat Commun. 2026;17(1):1319.",
+              "doi": "https://doi.org/10.1038/s41467-026-68820-7",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41634041/",
+              "highlight": false,
+              "citedBy": 2
+            },
+            {
+              "year": "2026",
+              "title": "cellSTAAR: incorporating single-cell-sequencing-based functional data to boost power in rare variant association testing of noncoding regions.",
+              "authors": "Van Buren E, Zhang Y, Li X, Selvaraj MS, Li Z, Zhou H, Palmer ND, Arnett DK, Blangero J, Boerwinkle E, Cade BE, Carlson JC, Carson AP, Chen YI, Curran J, Duggirala R, Fornage M, Franceschini N, Graff M, Gu C, Guo X, He J, Heard-Cosa N, Hou L, Hung YJ, Kalyani RR, Kardia SLR, Kenny E, Kooperberg C, Kral BG, Lange L, Levy D, Li C, Liu S, Lloyd-Jones D, Loos RJF, Manichaikul AW, Martin LW, Mathias R, Minster RL, Mitchell BD, Mychaleckyj JC, Naseri T, North K, O'Connell J, Perry JA, Peyser PA, Psaty BM, Raffield LM, Vasan RS, Redline S, Reiner AP, Rich SS, Smith JA, Spitzer B, Tang H, Taylor KD, Tracy R, Viali S, Yanek L, Zhao W, NHLBI TOPMed Consortium, Rotter JI, Peloso GM, Natarajan P, Lin X.",
+              "venue": "Nat Methods. 2026;23(2):338-349.",
+              "doi": "https://doi.org/10.1038/s41592-025-02919-5",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41476111/",
+              "highlight": true,
+              "citedBy": 2
+            },
+            {
+              "year": "2026",
+              "title": "FAVOR 2.0: A reengineered functional annotation of variants online resource for interpreting genomic variation.",
+              "authors": "Zhou H, Verma V, Li X, Li Z, Shedd N, Li TC, Yang H, Zhang A, Borsari B, Buyske S, Gerstein M, Matise T, Zody MC, Neale B, Weng Z, Sunyaev SR, Lin X.",
+              "venue": "Nucleic Acids Res. 2026;54(D1):D1405-D1414.",
+              "doi": "https://doi.org/10.1093/nar/gkaf1217",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41335103/",
+              "highlight": true,
+              "citedBy": 2
+            },
+            {
+              "year": "2025",
+              "title": "Genome-wide association study of early-stage non-small cell lung cancer prognosis: a pooled analysis in the International Lung Cancer Consortium.",
+              "authors": "Dong M, Thakral A, Byrne KS, Bosse Y, Zhou H, Zhang Y, Atkins J, Haycock P, Brown MC, Murison K, Timens W, Sin DD, Kothari J, Gabriel AAG, Zaridze D, Savic M, Lissowska J, Swiatkowska B, Janout V, Holcatova I, Mukeria A, Fernandez-Tardon G, Davies MPA, Triplette M, Schabath MB, Andrew AS, Chen C, Taylor F, Field JK, Tardon A, Shete SS, Brennan P, Landi MT, McKay J, Amos CI, Lin X, Christiani DC, Hung RJ, Liu G, Xu W.",
+              "venue": "Carcinogenesis. 2025;46(2):bgaf031.",
+              "doi": "https://doi.org/10.1093/carcin/bgaf031",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40746155/",
+              "highlight": false,
+              "citedBy": 1
+            },
+            {
+              "year": "2025",
+              "title": "A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies.",
+              "authors": "Li X, Chen H, Selvaraj MS, Van Buren E, Zhou H, Wang Y, Sun R, McCaw ZR, Yu Z, Jiang MZ, DiCorpo D, Gaynor SM, Dey R, Arnett DK, Benjamin EJ, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Carson AP, Carlson JC, Chami N, Chen YI, Curran JE, de Vries PS, Fornage M, Franceschini N, Freedman BI, Gu C, Heard-Costa NL, He J, Hou L, Hung YJ, Irvin MR, Kaplan RC, Kardia SLR, Kelly TN, Konigsberg I, Kooperberg C, Kral BG, Li C, Li Y, Lin H, Liu CT, Loos RJF, Mahaney MC, Martin LW, Mathias RA, Mitchell BD, Montasser ME, Morrison AC, Naseri T, North KE, Palmer ND, Peyser PA, Psaty BM, Redline S, Reiner AP, Rich SS, Sitlani CM, Smith JA, Taylor KD, Tiwari HK, Vasan RS, Viali S, Wang Z, Wessel J, Yanek LR, Yu B, NHLBI TOPMed Consortium, Dupuis J, Meigs JB, Auer PL, Raffield LM, Manning AK, Rice KM, Rotter JI, Peloso GM, Natarajan P, Li Z, Liu Z, Lin X.",
+              "venue": "Nat Comput Sci. 2025;5(2):125-143.",
+              "doi": "https://doi.org/10.1038/s43588-024-00764-8",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39920506/",
+              "highlight": true,
+              "citedBy": 10
+            },
+            {
+              "year": "2024",
+              "title": "Deciphering the impact of genomic variation on function.",
+              "authors": "IGVF Consortium.",
+              "venue": "Nature. 2024;633(8028):47-57.",
+              "doi": "https://doi.org/10.1038/s41586-024-07510-0",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39232149/",
+              "highlight": false,
+              "citedBy": 93
+            },
+            {
+              "year": "2024",
+              "title": "Whole-genome sequencing in 333,100 individuals reveals rare non-coding single variant and aggregate associations with height.",
+              "authors": "Hawkes G, Beaumont RN, Li Z, Mandla R, Li X, Albert CM, Arnett DK, Ashley-Koch AE, Ashrani AA, Barnes KC, Boerwinkle E, Brody JA, Carson AP, Chami N, Chen YI, Chung MK, Curran JE, Darbar D, Ellinor PT, Fornage M, Gordeuk VR, Guo X, He J, Hwu CM, Kalyani RR, Kaplan R, Kardia SLR, Kooperberg C, Loos RJF, Lubitz SA, Minster RL, Naseri T, Viali S, Mitchell BD, Murabito JM, Palmer ND, Psaty BM, Redline S, Shoemaker MB, Silverman EK, Telen MJ, Weiss ST, Yanek LR, Zhou H, NHLBI TOPMed Consortium, Liu CT, North KE, Justice AE, Locke JM, Owens N, Murray A, Patel K, Frayling TM, Wright CF, Wood AR, Lin X, Manning A, Weedon MN.",
+              "venue": "Nat Commun. 2024;15(1):8549.",
+              "doi": "https://doi.org/10.1038/s41467-024-52579-w",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39362880/",
+              "highlight": false,
+              "citedBy": 35
+            },
+            {
+              "year": "2024",
+              "title": "FAVOR-GPT: a generative natural language interface to whole genome variant functional annotations.",
+              "authors": "Li TC, Zhou H, Verma V, Tang X, Shao Y, Van Buren E, Weng Z, Gerstein M, Neale B, Sunyaev SR, Lin X.",
+              "venue": "Bioinform Adv. 2024;4(1):vbae143.",
+              "doi": "https://doi.org/10.1093/bioadv/vbae143",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39387060/",
+              "highlight": true,
+              "citedBy": 10
+            },
+            {
+              "year": "2024",
+              "title": "Repurposing Type I-A CRISPR-Cas3 for a robust diagnosis of human papillomavirus (HPV).",
+              "authors": "Hu T, Ji Q, Ke X, Zhou H, Zhang S, Ma S, Yu C, Ju W, Lu M, Lin Y, Ou Y, Zhou Y, Xiao Y, Xu C, Hu C.",
+              "venue": "Commun Biol. 2024;7(1):858.",
+              "doi": "https://doi.org/10.1038/s42003-024-06537-3",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39003402/",
+              "highlight": false,
+              "citedBy": 22
+            },
+            {
+              "year": "2023",
+              "title": "FAVOR: functional annotation of variants online resource and annotator for variation across the human genome.",
+              "authors": "Zhou H, Arapoglou T, Li X, Li Z, Zheng X, Moore J, Asok A, Kumar S, Blue EE, Buyske S, Cox N, Felsenfeld A, Gerstein M, Kenny E, Li B, Matise T, Philippakis A, Rehm HL, Sofia HJ, Snyder G, Weng Z, Neale B, Sunyaev SR, Lin X.",
+              "venue": "Nucleic Acids Res. 2023;51(D1):D1300-D1311.",
+              "doi": "https://doi.org/10.1093/nar/gkac966",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36350676/",
+              "highlight": true,
+              "citedBy": 150
+            },
+            {
+              "year": "2023",
+              "title": "Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies.",
+              "authors": "Li X, Quick C, Zhou H, Gaynor SM, Liu Y, Chen H, Selvaraj MS, Sun R, Dey R, Arnett DK, Bielak LF, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Freedman BI, Goring HH, Guo X, Haessler J, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Manichaikul A, Martin LW, McGarvey ST, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Sitlani CM, Smith JA, Taylor KD, Vasan RS, Willer CJ, Wilson JG, Yanek LR, Zhao W, TOPMed Consortium, Rotter JI, Natarajan P, Peloso GM, Li Z, Lin X.",
+              "venue": "Nat Genet. 2023;55(1):154-164.",
+              "doi": "https://doi.org/10.1038/s41588-022-01225-6",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36564505/",
+              "highlight": true,
+              "citedBy": 65
+            },
+            {
+              "year": "2022",
+              "title": "A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.",
+              "authors": "Li Z, Li X, Zhou H, Gaynor SM, Selvaraj MS, Arapoglou T, Quick C, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Auer PL, Bielak LF, Bis JC, Blackwell T, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Conomos MP, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Franceschini N, Freedman BI, Goring HH, Guo X, Kalyani RR, Kooperberg C, Kral BG, Lange L, Lin B, Manichaikul A, Manning A, Martin LW, Mathias R, Meigs JB, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell J, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich S, Smith J, Taylor KD, Taub M, Vasan RS, Weeks D, Wilson J, Yanek L, Zhao W, TOPMed Group, Rotter J, Willer C, Natarajan P, Peloso G, Lin X.",
+              "venue": "Nat Methods. 2022;19:1599-1611.",
+              "doi": "https://doi.org/10.1038/s41592-022-01640-x",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 114
+            },
+            {
+              "year": "2022",
+              "title": "A multi-dimensional integrative scoring framework for predicting functional variants in the human genome.",
+              "authors": "Li X, Yung G, Zhou H, Sun R, Li Z, Hou K, Zhang MJ, Liu Y, Arapoglou T, Wang C, Ionita-Laza I, Lin X.",
+              "venue": "Am J Hum Genet. 2022;109(3):446-456.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 3
+            },
+            {
+              "year": "2022",
+              "title": "AFA: ancestry-specific allele frequency estimation in admixed populations: the Hispanic Community Health Study/Study of Latinos.",
+              "authors": "Granot-Hershkovitz E, Sun Q, Argos M, Zhou H, Lin X, Browning SR, Sofer T.",
+              "venue": "Hum Genet Genom Adv. 2022;3(2):100096.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 0
+            },
+            {
+              "year": "2022",
+              "title": "Assessing the contribution of rare variants to complex trait heritability from whole-genome sequence data.",
+              "authors": "Wainschtein P, Jain D, Zheng Z, Cupples LA, Shadyab AH, McKnight B, Shoemaker BM, Mitchell BD, Psaty BM, Kooperberg C, Liu CT, et al.",
+              "venue": "Nat Genet. 2022;54(3):263-273.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 368
+            },
+            {
+              "year": "2022",
+              "title": "Upregulated heme biosynthesis increases obstructive sleep apnea severity: a pathway-based Mendelian randomization study.",
+              "authors": "Wang H, Kurniansyah N, Cade BE, Goodman MO, Chen H, Gottlieb DJ, Gharib SA, Purcell SM, Lin X, Saxena R, Zhu X.",
+              "venue": "Sci Rep. 2022;12(1):1-11.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 6
+            },
+            {
+              "year": "2021",
+              "title": "Integration of multiomic annotation data to prioritize and characterize inflammation and immune-related risk variants in squamous cell lung cancer.",
+              "authors": "Sun R, Xu M, Li X, Gaynor S, Zhou H, Li Z, Bosse Y, Lam S, Tsao MS, Tardon A, Chen C.",
+              "venue": "Genet Epidemiol. 2021;45(1):99-114.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 8
+            },
+            {
+              "year": "2021",
+              "title": "Whole-genome association analyses of sleep-disordered breathing phenotypes in the NHLBI TOPMed program.",
+              "authors": "Cade BE, Lee J, Sofer T, Wang H, Zhang M, Chen H, Gharib SA, Gottlieb DJ, Guo X, Lane JM, Liang J, et al.",
+              "venue": "Genome Med. 2021;13(1):1-17.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 35
+            },
+            {
+              "year": "2020",
+              "title": "Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.",
+              "authors": "Li X, Li Z, Zhou H, Gaynor SM, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Aslibekyan S, Ballantyne CM, Bielak LF, Blangero J, Boerwinkle E, Bowden DW, Broome JG, Conomos MP, Correa A, Cupples LA, Curran JE, Freedman BI, Guo X, Hindy G, Irvin MR, Kardia SLR, Kathiresan S, Khan AT, Kooperberg CL, Laurie CC, Liu XS, Mahaney MC, Manichaikul AW, Martin LW, Mathias RA, McGarvey ST, Mitchell BD, Montasser ME, Moore J, Morrison AC, O'Connell JR, Palmer ND, Pampana A, Peralta JM, Peyser PA, Psaty BM, Redline S, Rice KM, Rich SS, Smith JA, Tiwari HK, Tsai MY, Vasan RS, Wang FF, Weeks DE, Weng Z, Wilson JG, Yanek LR, TOPMed Consortium, Neale BM, Sunyaev SR, Abecasis GR, Rotter JI, Willer CJ, Peloso GM, Natarajan P, Lin X.",
+              "venue": "Nat Genet. 2020;52(9):969-983.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 300
+            },
+            {
+              "year": "2020",
+              "title": "Epstein-Barr virus episome physically interacts with active regions of the host genome in lymphoblastoid cells.",
+              "authors": "Wang L, Laing J, Yan B, Zhou H, Ke L, Wang C, Narita Y, Zhang Z, Olson MR, Afzali B, Zhao B.",
+              "venue": "J Virol. 2020;94(24):e01390-20.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 50
+            },
+            {
+              "year": "2020",
+              "title": "De novo mutations across 1,465 diverse genomes reveal mutational insights and reductions in the Amish founder population.",
+              "authors": "Kessler MD, Loesch DP, Perry JA, Heard-Costa NL, Taliun D, Cade BE, Wang H, Daya M, Ziniti J, Datta S, Celedon JC, et al.",
+              "venue": "Proc Natl Acad Sci U S A. 2020;117(5):2560-2569.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 112
+            },
+            {
+              "year": "2019",
+              "title": "Dynamic scan procedure for detecting rare-variant association regions in whole-genome sequencing studies.",
+              "authors": "Li Z, Li X, Liu Y, Shen J, Chen H, Zhou H, Morrison AC, Boerwinkle E, Lin X.",
+              "venue": "Am J Hum Genet. 2019;104(5):802-814.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 0
+            },
+            {
+              "year": "2018",
+              "title": "Epstein-Barr Virus Nuclear Antigen Leader Protein coactivates EP300.",
+              "authors": "Wang C, Zhou H*, Xue Y, Liang J, Narita Y, Gerdt C, Zheng AY, Jiang R, Trudeau S, Peng CW, Gewurz BE.",
+              "venue": "J Virol. 2018;92(9):e02155-17.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 28
+            },
+            {
+              "year": "2018",
+              "title": "Haemophilus parasuis infection disrupts adherens junctions and initializes EMT dependent on canonical Wnt/beta-catenin signaling pathway.",
+              "authors": "Hua K, Li Y, Zhou H, Hu X, Chen Y, He R, Luo R, Zhou R, Bi D, Jin H.",
+              "venue": "Front Cell Infect Microbiol. 2018;8:324.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false
+            },
+            {
+              "year": "2018",
+              "title": "Haemophilus parasuis infection activates NOD1/2-RIP2 signaling pathway in PK-15 cells.",
+              "authors": "Ma B, Hua K, Zhou S, Zhou H, Chen Y, Luo R, Bi D, Zhou R, He Q, Jin H.",
+              "venue": "Dev Comp Immunol. 2018;79:158-165.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 12
+            },
+            {
+              "year": "2017",
+              "title": "The Epstein-Barr virus regulome in lymphoblastoid cells.",
+              "authors": "Jiang S, Zhou H*, Liang J, Gerdt C, Wang C, Ke L, Schmidt SC, Narita Y, Ma Y, Wang S, Colson T.",
+              "venue": "Cell Host Microbe. 2017;22(4):561-573.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 128
+            },
+            {
+              "year": "2017",
+              "title": "Nasopharyngeal carcinoma super-enhancer-driven ETV6 correlates with prognosis.",
+              "authors": "Ke L, Zhou H, Wang C, Xiong G, Xiang Y, Ling Y, Khabir A, Tsao GS, Zeng Y, Zeng M, Busson P.",
+              "venue": "Proc Natl Acad Sci U S A. 2017;114(36):9683-9688.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 82
+            },
+            {
+              "year": "2017",
+              "title": "Identification of a nucleoside analog active against adenosine kinase-expressing plasma cell malignancies.",
+              "authors": "Nayar U, Sadek J, Reichel J, Hernandez-Hopkins D, Akar G, Barelli PJ, Sahai MA, Zhou H, Totonchy J, Jayabalan D, Niesvizky R.",
+              "venue": "J Clin Invest. 2017;127(6):2066-2080.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 10
+            },
+            {
+              "year": "2017",
+              "title": "Mouse model of Epstein-Barr virus LMP1- and LMP2A-driven germinal center B-cell lymphoproliferative disease.",
+              "authors": "Minamitani T, Ma Y, Zhou H, Kida H, Tsai CY, Obana M, Okuzaki D, Fujio Y, Kumanogoh A, Zhao B, Kikutani H.",
+              "venue": "Proc Natl Acad Sci U S A. 2017;114(18):4751-4756.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 62
+            },
+            {
+              "year": "2016",
+              "title": "Epstein-Barr virus super-enhancer eRNAs are essential for MYC oncogene expression and lymphoblast proliferation.",
+              "authors": "Liang J, Zhou H, Gerdt C, Tan M, Colson T, Kaye KM, Kieff E, Zhao B.",
+              "venue": "Proc Natl Acad Sci U S A. 2016;113(49):14121-14126.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 90
+            },
+            {
+              "year": "2015",
+              "title": "Epstein-Barr virus oncoprotein super-enhancers control B cell growth.",
+              "authors": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B.",
+              "venue": "Cell Host Microbe. 2015;17(2):205-216.",
+              "doi": "https://doi.org/10.1016/j.chom.2014.12.013",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25639793/",
+              "highlight": true,
+              "citedBy": 187
+            },
+            {
+              "year": "2015",
+              "title": "Evasion of affinity-based selection in germinal centers by Epstein-Barr virus LMP2A.",
+              "authors": "Minamitani T, Yasui T, Ma Y, Zhou H, Okuzaki D, Tsai CY, Sakakibara S, Gewurz BE, Kieff E, Kikutani H.",
+              "venue": "Proc Natl Acad Sci U S A. 2015;112(37):11612-11617.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 51
+            },
+            {
+              "year": "2015",
+              "title": "The association between indwelling arterial catheters and mortality in hemodynamically stable patients with respiratory failure: a propensity score analysis.",
+              "authors": "Hsu DJ, Feng M, Kothari R, Zhou H, Chen KP, Celi LA.",
+              "venue": "Chest. 2015;148(6):1470-1476.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false
+            },
+            {
+              "year": "2015",
+              "title": "TRAF1 coordinates polyubiquitin signaling to enhance Epstein-Barr Virus LMP1-mediated growth and survival pathway activation.",
+              "authors": "Greenfeld H, Takasaki K, Walsh MJ, Ersing I, Bernhardt K, Ma Y, Fu B, Ashbaugh CW, Cabo J, Mollo SB, Zhou H, Li S, Gewurz BE.",
+              "venue": "PLoS Pathog. 2015;11(5):e1004890.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 86
+            },
+            {
+              "year": "2015",
+              "title": "Epstein-Barr virus nuclear antigen 3A partially coincides with EBNA3C genome-wide and is tethered to DNA through BATF complexes.",
+              "authors": "Schmidt SC, Jiang S, Zhou H, Willox B, Holthaus AM, Kharchenko PV, Johannsen EC, Kieff E, Zhao B.",
+              "venue": "Proc Natl Acad Sci U S A. 2015;112(2):554-559.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 50
+            },
+            {
+              "year": "2014",
+              "title": "The NF-kappaB genomic landscape in lymphoblastoid B cells.",
+              "authors": "Zhao B, Barrera LA, Ersing I, Willox B, Schmidt SC, Greenfeld H, Zhou H, Mollo SB, Shi TT, Takasaki K, Jiang S, Cahir-McFarland E, Kellis M, Bulyk ML, Kieff E, Gewurz BE.",
+              "venue": "Cell Rep. 2014;8(5):1595-1606.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false
+            },
+            {
+              "year": "2014",
+              "title": "Epstein-Barr virus infection in Chinese children: a retrospective study of age-specific prevalence.",
+              "authors": "Xiong G, Zhang B, Huang MY, Zhou H, Chen LZ, Feng QS, Luo X, Lin HJ, Zeng YX.",
+              "venue": "PLoS One. 2014;9(6):e99857.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false
+            },
+            {
+              "year": "2014",
+              "title": "Stringent homology-based prediction of H. sapiens-M. tuberculosis H37Rv protein-protein interactions.",
+              "authors": "Zhou H, Gao S, Nguyen NN, Fan M, Jin J, Liu B, Zhao L, Xiong G, Tan M, Li S, Wong L.",
+              "venue": "Biol Direct. 2014;9:5.",
+              "doi": "https://doi.org/10.1186/1745-6150-9-5",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 74
+            },
+            {
+              "year": "2014",
+              "title": "Epstein-Barr virus nuclear antigen 3C binds to BATF/IRF4 or SPI1/IRF4 composite sites and recruits Sin3A to repress CDKN2A.",
+              "authors": "Jiang S, Willox B, Zhou H, Holthaus AM, Wang A, Shi TT, Maruo S, Kharchenko PV, Johannsen EC, Kieff E, Zhao B.",
+              "venue": "Proc Natl Acad Sci U S A. 2014;111(1):421-426.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 91
+            },
+            {
+              "year": "2014",
+              "title": "LipidGO: database for lipid-related GO terms and applications.",
+              "authors": "Fan M, Low HS, Zhou H, Wenk MR, Wong L.",
+              "venue": "Bioinformatics. 2014;30(7):1043-1044.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 3
+            },
+            {
+              "year": "2013",
+              "title": "Epstein-Barr virus nuclear antigen leader protein localizes to promoters and enhancers with cell transcription factors and EBNA2.",
+              "authors": "Portal D*, Zhou H*, Zhao B, Kharchenko PV, Lowry E, Wong L, Quackenbush J, Holloway D, Jiang S, Lu Y, Kieff E.",
+              "venue": "Proc Natl Acad Sci U S A. 2013;110(46):18537-18542.",
+              "doi": "https://doi.org/10.1073/pnas.1317608110",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24167291/",
+              "highlight": true,
+              "citedBy": 76
+            },
+            {
+              "year": "2013",
+              "title": "Progress in computational studies of host-pathogen interactions.",
+              "authors": "Zhou H, Jin J, Wong L.",
+              "venue": "J Bioinform Comput Biol. 2013;11(2):1230001.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 0
+            },
+            {
+              "year": "2012",
+              "title": "IntPath: an integrated pathway gene relationship database for model organisms and important pathogens.",
+              "authors": "Zhou H, Jin J, Zhang H, Yi B, Wozniak M, Wong L.",
+              "venue": "BMC Syst Biol. 2012;6 Suppl 2:S2.",
+              "doi": "https://doi.org/10.1186/1752-0509-6-S2-S2",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 50
+            },
+            {
+              "year": "2011",
+              "title": "Comparative analysis and assessment of M. tuberculosis H37Rv protein-protein interaction datasets.",
+              "authors": "Zhou H, Wong L.",
+              "venue": "BMC Genomics. 2011;12 Suppl 3:S20.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 32
+            },
+            {
+              "year": "2009",
+              "title": "Transcriptional responses of Haemophilus parasuis to iron-restriction stress in vitro.",
+              "authors": "Xie Q, Jin H, Luo R, Wan Y, Chu J, Zhou H, Shi B, Chen H, Zhou R.",
+              "venue": "Biometals. 2009;22(6):907-916.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 10
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "projects": {
+      "route": "/research",
+      "kicker": "Projects and research directions",
+      "title": "Research",
+      "lede": "A clearer map of the research program, with each major area connected to publications, software, and project detail pages.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "Connected research areas",
+          "lede": "Each project area links methods, biological questions, representative publications, and software or data resources.",
+          "tags": [],
+          "alt": false,
+          "prose": "",
+          "cards": [
+            {
+              "title": "Population Genetics",
+              "image": "/images/STAARpipe.jpg",
+              "imageAlt": "Population Genetics",
+              "html": "<p>Research on scalable whole-genome sequencing analysis, rare-variant association testing, functional annotation, and genetic discovery in diverse populations.</p><a href=\"/research/population-genetics\">Explore project</a>",
+              "href": "/research/population-genetics",
+              "linkLabel": ""
+            },
+            {
+              "title": "FAVOR",
+              "image": "/images/FAVOR.jpg",
+              "imageAlt": "FAVOR",
+              "html": "<p>FAVOR is a functional annotation resource and software ecosystem for interpreting human genetic variation across the genome.</p><a href=\"/research/favor\">Explore project</a>",
+              "href": "/research/favor",
+              "linkLabel": ""
+            },
+            {
+              "title": "STAAR Methods",
+              "image": "/images/STAAR.jpg",
+              "imageAlt": "STAAR Methods",
+              "html": "<p>STAAR and its extensions use functional annotation to improve rare-variant association analysis for whole-genome sequencing studies.</p><a href=\"/research/staar\">Explore project</a>",
+              "href": "/research/staar",
+              "linkLabel": ""
+            },
+            {
+              "title": "Epigenomics",
+              "image": "/images/portfolio/EBVregulome.jpg",
+              "imageAlt": "Epigenomics",
+              "html": "<p>Integrative functional genomics of Epstein-Barr virus regulation, host chromatin, and cancer-relevant transcriptional programs.</p><a href=\"/research/epigenomics\">Explore project</a>",
+              "href": "/research/epigenomics",
+              "linkLabel": ""
+            },
+            {
+              "title": "AI Genomics and Digital Pathology",
+              "image": "/images/STAARpipe2.jpg",
+              "imageAlt": "AI Genomics and Digital Pathology",
+              "html": "<p>AI agents and machine-learning systems for pathogenic variant annotation, IGVF ecosystem analysis, large-scale WGS quality control, multi-omic integration, and digital pathology risk prediction.</p><a href=\"/research/ai-genomics\">Explore project</a>",
+              "href": "/research/ai-genomics",
+              "linkLabel": ""
+            },
+            {
+              "title": "Protein-Protein Interactions",
+              "image": "/images/portfolio/Homology.jpg",
+              "imageAlt": "Protein-Protein Interactions",
+              "html": "<p>Computational prediction, assessment, and biological interpretation of protein-protein interaction networks.</p><a href=\"/research/protein-interactions\">Explore project</a>",
+              "href": "/research/protein-interactions",
+              "linkLabel": ""
+            }
+          ],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "From methods to software",
+          "heading": "Designed for real sequencing studies",
+          "lede": "The research program connects method development, statistical inference, functional genomics, scalable software, and public resources. That makes the portfolio legible as both a scientific agenda and an engineering record.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [
+            {
+              "label": "View software",
+              "href": "/software"
+            }
+          ],
+          "image": "/images/portfolio/STAARpipeline.jpg",
+          "imageAlt": "STAARpipeline research figure"
+        }
+      ]
+    },
+    "Software": {
+      "route": "/software",
+      "kicker": "Tools and resources",
+      "title": "Software",
+      "lede": "Open and consortium-facing software for variant annotation, rare-variant association testing, pathway integration, and protein interaction analysis.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Portfolio",
+          "heading": "Scientific software with research impact",
+          "lede": "These tools support auditable AI agents, variant annotation, rare-variant association testing, pathway integration, and protein interaction analysis.",
+          "tags": [],
+          "alt": false,
+          "prose": "",
+          "cards": [
+            {
+              "title": "IGVFagent",
+              "image": "/images/igvfagent.svg",
+              "imageAlt": "IGVFagent",
+              "html": "<p>A local, auditable AI agent for discovering, retrieving, and analyzing data from the IGVF Portal, Catalog, Knowledge Graph, ENCODE, FAVOR, and related public resources.</p><a href=\"/research/ai-genomics\">Learn more</a>",
+              "href": "/research/ai-genomics",
+              "linkLabel": ""
+            },
+            {
+              "title": "FAVOR",
+              "image": "/images/portfolio/FAVORannotator.jpg",
+              "imageAlt": "FAVOR",
+              "html": "<p>Functional Annotation of Variants Online Resource, including FAVOR 2.0, FAVORannotator, and FAVOR-GPT for genome-wide variant annotation, search, batch analysis, and interpretation.</p><a href=\"/research/favor\">Learn more</a>",
+              "href": "/research/favor",
+              "linkLabel": ""
+            },
+            {
+              "title": "STAAR",
+              "image": "/images/STAAR.jpg",
+              "imageAlt": "STAAR",
+              "html": "<p>Annotation-informed rare-variant association testing for whole-genome sequencing studies.</p><a href=\"https://github.com/li-lab-genetics/STAAR\" rel=\"noopener noreferrer\" target=\"_blank\">Open resource</a>",
+              "href": "https://github.com/li-lab-genetics/STAAR",
+              "linkLabel": ""
+            },
+            {
+              "title": "STAARpipeline",
+              "image": "/images/STAARpipe.jpg",
+              "imageAlt": "STAARpipeline",
+              "html": "<p>A scalable pipeline for coding, noncoding, gene-centric, and region-based rare-variant association analysis.</p><a href=\"https://github.com/xihaoli/STAARpipeline\" rel=\"noopener noreferrer\" target=\"_blank\">Open resource</a>",
+              "href": "https://github.com/xihaoli/STAARpipeline",
+              "linkLabel": ""
+            },
+            {
+              "title": "WGSagent",
+              "image": "/images/wgsagent.svg",
+              "imageAlt": "WGSagent",
+              "html": "<p>An autonomous AI agent for end-to-end whole-genome sequencing analysis, coordinating QC, ancestry and relatedness modeling, annotation, rare-variant testing, meta-analysis, cell-type-aware interpretation, eGASS storage, and human review.</p><a href=\"/research/ai-genomics\">Learn more</a>",
+              "href": "/research/ai-genomics",
+              "linkLabel": ""
+            },
+            {
+              "title": "cellSTAAR",
+              "image": "/images/portfolio/STAARpipeline.jpg",
+              "imageAlt": "cellSTAAR",
+              "html": "<p>Single-cell-informed rare-variant association testing for noncoding regions, integrating functional data to improve power in whole-genome sequencing studies.</p><a href=\"/research/staar\">Learn more</a>",
+              "href": "/research/staar",
+              "linkLabel": ""
+            },
+            {
+              "title": "IntPath",
+              "image": "/images/portfolio/intpath1.jpg",
+              "imageAlt": "IntPath",
+              "html": "<p>Integrated pathway gene relationship database for model organisms and important pathogens.</p><a href=\"/research/protein-functions\">Learn more</a>",
+              "href": "/research/protein-functions",
+              "linkLabel": ""
+            },
+            {
+              "title": "PPI prediction tools",
+              "image": "/images/portfolio/mtbppi1.jpg",
+              "imageAlt": "PPI prediction tools",
+              "html": "<p>Computational prediction and evaluation of intra-species and host-pathogen protein-protein interactions.</p><a href=\"/research/host-pathogen-ppis\">Learn more</a>",
+              "href": "/research/host-pathogen-ppis",
+              "linkLabel": ""
+            }
+          ],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        },
+        {
+          "kicker": "Principles",
+          "heading": "What the tools are built to do",
+          "lede": "For a job-market page, software is framed as a research contribution rather than a side project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [
+            {
+              "title": "Scale",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Handle whole-genome sequencing data, large cohorts, consortium meta-analysis, and annotation resources that exceed ordinary desktop workflows.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "Interpretability",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Use auditable agent loops, functional annotation, visualization, and searchable resources so variant-level results become biologically meaningful.</p>",
+              "href": "",
+              "linkLabel": ""
+            },
+            {
+              "title": "Reusability",
+              "image": null,
+              "imageAlt": "",
+              "html": "<p>Package methods as tools, portals, and reproducible workflows that collaborators can adopt in real studies.</p>",
+              "href": "",
+              "linkLabel": ""
+            }
+          ],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "contact": {
+      "route": "/contact",
+      "kicker": "Get in touch",
+      "title": "Contact",
+      "lede": "For research collaborations, seminar invitations, faculty searches, and software or publication questions.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "",
+          "heading": "",
+          "lede": "",
+          "tags": [],
+          "alt": false,
+          "prose": "<p>Research statement, teaching statement, and additional software details are available upon request. Email is the most reliable contact path.</p>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [
+            {
+              "label": "Send email",
+              "href": "mailto:hufengzhou@g.harvard.edu?subject=Homepage%20inquiry"
+            },
+            {
+              "label": "Download CV",
+              "href": "https://zhouhufeng.github.io/HZHOU-CV-Jan24th2026.docx"
+            }
+          ],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "Population_Genetics": {
+      "route": "/research/population-genetics",
+      "kicker": "Biobank-scale human genetics",
+      "title": "Population Genetics",
+      "lede": "Research on scalable whole-genome sequencing analysis, rare-variant association testing, functional annotation, and genetic discovery in diverse populations.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "Population Genetics",
+          "lede": "Large whole-genome sequencing studies now measure rare coding and noncoding variation at a scale that requires statistical, computational, and data-infrastructure advances. My work develops and applies annotation-informed methods that increase power, preserve rigorous control of population structure and relatedness, and make variant interpretation practical for large consortia.",
+          "tags": [
+            "STAAR Methods",
+            "FAVOR"
+          ],
+          "alt": false,
+          "prose": "<ul><li>STAAR and STAARpipeline for annotation-informed rare-variant association testing.</li><li>metaSTAAR for powerful and resource-efficient meta-analysis across large WGS and WES studies.</li><li>MultiSTAAR and cellSTAAR for multi-trait and single-cell-informed rare-variant analysis.</li><li>Cross-consortium applications in TOPMed, GSP, lung cancer, sleep, lipids, and multi-ancestry resources.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/STAARpipe.jpg",
+          "imageAlt": "Population Genetics figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2026",
+              "title": "Scalable and accurate rare-variant association tests for whole genome sequencing time-to-event analysis in large biobanks.",
+              "authors": "Song S, Li X, Zhou H, Li Z, Lin X.",
+              "venue": "Proc Natl Acad Sci U S A. 2026;123(9):e2525288123.",
+              "doi": "https://doi.org/10.1073/pnas.2525288123",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41758668/",
+              "highlight": true,
+              "citedBy": 0
+            },
+            {
+              "year": "2025",
+              "title": "A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies.",
+              "authors": "Li X, Chen H, Selvaraj MS, Van Buren E, Zhou H, Wang Y, Sun R, McCaw ZR, Yu Z, Jiang MZ, DiCorpo D, Gaynor SM, Dey R, Arnett DK, Benjamin EJ, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Carson AP, Carlson JC, Chami N, Chen YI, Curran JE, de Vries PS, Fornage M, Franceschini N, Freedman BI, Gu C, Heard-Costa NL, He J, Hou L, Hung YJ, Irvin MR, Kaplan RC, Kardia SLR, Kelly TN, Konigsberg I, Kooperberg C, Kral BG, Li C, Li Y, Lin H, Liu CT, Loos RJF, Mahaney MC, Martin LW, Mathias RA, Mitchell BD, Montasser ME, Morrison AC, Naseri T, North KE, Palmer ND, Peyser PA, Psaty BM, Redline S, Reiner AP, Rich SS, Sitlani CM, Smith JA, Taylor KD, Tiwari HK, Vasan RS, Viali S, Wang Z, Wessel J, Yanek LR, Yu B, NHLBI TOPMed Consortium, Dupuis J, Meigs JB, Auer PL, Raffield LM, Manning AK, Rice KM, Rotter JI, Peloso GM, Natarajan P, Li Z, Liu Z, Lin X.",
+              "venue": "Nat Comput Sci. 2025;5(2):125-143.",
+              "doi": "https://doi.org/10.1038/s43588-024-00764-8",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39920506/",
+              "highlight": true,
+              "citedBy": 10
+            },
+            {
+              "year": "2026",
+              "title": "cellSTAAR: incorporating single-cell-sequencing-based functional data to boost power in rare variant association testing of noncoding regions.",
+              "authors": "Van Buren E, Zhang Y, Li X, Selvaraj MS, Li Z, Zhou H, Palmer ND, Arnett DK, Blangero J, Boerwinkle E, Cade BE, Carlson JC, Carson AP, Chen YI, Curran J, Duggirala R, Fornage M, Franceschini N, Graff M, Gu C, Guo X, He J, Heard-Cosa N, Hou L, Hung YJ, Kalyani RR, Kardia SLR, Kenny E, Kooperberg C, Kral BG, Lange L, Levy D, Li C, Liu S, Lloyd-Jones D, Loos RJF, Manichaikul AW, Martin LW, Mathias R, Minster RL, Mitchell BD, Mychaleckyj JC, Naseri T, North K, O'Connell J, Perry JA, Peyser PA, Psaty BM, Raffield LM, Vasan RS, Redline S, Reiner AP, Rich SS, Smith JA, Spitzer B, Tang H, Taylor KD, Tracy R, Viali S, Yanek L, Zhao W, NHLBI TOPMed Consortium, Rotter JI, Peloso GM, Natarajan P, Lin X.",
+              "venue": "Nat Methods. 2026;23(2):338-349.",
+              "doi": "https://doi.org/10.1038/s41592-025-02919-5",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41476111/",
+              "highlight": true,
+              "citedBy": 2
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "FAVOR": {
+      "route": "/research/favor",
+      "kicker": "Variant annotation and interpretation",
+      "title": "FAVOR",
+      "lede": "FAVOR is a functional annotation resource and software ecosystem for interpreting human genetic variation across the genome.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "FAVOR",
+          "lede": "FAVOR brings variant annotation, interactive search, batch analysis, and downloadable resources into one accessible system. FAVOR 2.0 expands the annotation landscape and modernizes the infrastructure, while FAVOR-GPT explores natural-language access to complex annotation results.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>Open-access portal for functional annotation of human genetic variants.</li><li>FAVOR 2.0 expands annotations, web interface capabilities, API infrastructure, and visualization.</li><li>FAVORannotator integrates annotation data with genotype data into analysis-ready aGDS files.</li><li>FAVOR-GPT provides a natural-language interface for exploring and interpreting annotation results.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [
+            {
+              "label": "FAVOR portal",
+              "href": "https://favor.genohub.org/"
+            },
+            {
+              "label": "Documentation",
+              "href": "https://docs.genohub.org/"
+            },
+            {
+              "label": "Google Scholar profile",
+              "href": "https://scholar.google.com/citations?user=Ddw_B4EAAAAJ&hl=en"
+            }
+          ],
+          "image": "/images/FAVOR.jpg",
+          "imageAlt": "FAVOR figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2026",
+              "title": "FAVOR 2.0: A reengineered functional annotation of variants online resource for interpreting genomic variation.",
+              "authors": "Zhou H, Verma V, Li X, Li Z, Shedd N, Li TC, Yang H, Zhang A, Borsari B, Buyske S, Gerstein M, Matise T, Zody MC, Neale B, Weng Z, Sunyaev SR, Lin X.",
+              "venue": "Nucleic Acids Res. 2026;54(D1):D1405-D1414.",
+              "doi": "https://doi.org/10.1093/nar/gkaf1217",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41335103/",
+              "highlight": true,
+              "citedBy": 2
+            },
+            {
+              "year": "2024",
+              "title": "FAVOR-GPT: a generative natural language interface to whole genome variant functional annotations.",
+              "authors": "Li TC, Zhou H, Verma V, Tang X, Shao Y, Van Buren E, Weng Z, Gerstein M, Neale B, Sunyaev SR, Lin X.",
+              "venue": "Bioinform Adv. 2024;4(1):vbae143.",
+              "doi": "https://doi.org/10.1093/bioadv/vbae143",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39387060/",
+              "highlight": true,
+              "citedBy": 10
+            },
+            {
+              "year": "2023",
+              "title": "FAVOR: functional annotation of variants online resource and annotator for variation across the human genome.",
+              "authors": "Zhou H, Arapoglou T, Li X, Li Z, Zheng X, Moore J, Asok A, Kumar S, Blue EE, Buyske S, Cox N, Felsenfeld A, Gerstein M, Kenny E, Li B, Matise T, Philippakis A, Rehm HL, Sofia HJ, Snyder G, Weng Z, Neale B, Sunyaev SR, Lin X.",
+              "venue": "Nucleic Acids Res. 2023;51(D1):D1300-D1311.",
+              "doi": "https://doi.org/10.1093/nar/gkac966",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36350676/",
+              "highlight": true,
+              "citedBy": 150
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "STAAR": {
+      "route": "/research/staar",
+      "kicker": "Rare-variant association testing",
+      "title": "STAAR Methods",
+      "lede": "STAAR and its extensions use functional annotation to improve rare-variant association analysis for whole-genome sequencing studies.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "STAAR Methods",
+          "lede": "The STAAR family of methods combines statistical genetics and functional genomics so rare variants can be tested in biologically meaningful sets. The ecosystem spans single-study analysis, biobank-scale pipelines, meta-analysis, multi-trait analysis, single-cell-informed noncoding tests, and time-to-event outcomes.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>Annotation principal components and dynamic annotation weighting.</li><li>Scalable analysis for very large WGS cohorts with continuous and binary traits.</li><li>Extensions for meta-analysis, multi-trait discovery, cell-type-informed noncoding regions, and survival outcomes.</li><li>Software implementations designed for consortium-scale genetic studies.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [
+            {
+              "label": "STAAR GitHub",
+              "href": "https://github.com/li-lab-genetics/STAAR"
+            },
+            {
+              "label": "STAARpipeline GitHub",
+              "href": "https://github.com/xihaoli/STAARpipeline"
+            },
+            {
+              "label": "metaSTAAR GitHub",
+              "href": "https://github.com/xihaoli/metaSTAAR"
+            }
+          ],
+          "image": "/images/STAAR.jpg",
+          "imageAlt": "STAAR Methods figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2020",
+              "title": "Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.",
+              "authors": "Li X, Li Z, Zhou H, Gaynor SM, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Aslibekyan S, Ballantyne CM, Bielak LF, Blangero J, Boerwinkle E, Bowden DW, Broome JG, Conomos MP, Correa A, Cupples LA, Curran JE, Freedman BI, Guo X, Hindy G, Irvin MR, Kardia SLR, Kathiresan S, Khan AT, Kooperberg CL, Laurie CC, Liu XS, Mahaney MC, Manichaikul AW, Martin LW, Mathias RA, McGarvey ST, Mitchell BD, Montasser ME, Moore J, Morrison AC, O'Connell JR, Palmer ND, Pampana A, Peralta JM, Peyser PA, Psaty BM, Redline S, Rice KM, Rich SS, Smith JA, Tiwari HK, Tsai MY, Vasan RS, Wang FF, Weeks DE, Weng Z, Wilson JG, Yanek LR, TOPMed Consortium, Neale BM, Sunyaev SR, Abecasis GR, Rotter JI, Willer CJ, Peloso GM, Natarajan P, Lin X.",
+              "venue": "Nat Genet. 2020;52(9):969-983.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 300
+            },
+            {
+              "year": "2023",
+              "title": "Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies.",
+              "authors": "Li X, Quick C, Zhou H, Gaynor SM, Liu Y, Chen H, Selvaraj MS, Sun R, Dey R, Arnett DK, Bielak LF, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Freedman BI, Goring HH, Guo X, Haessler J, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Manichaikul A, Martin LW, McGarvey ST, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Sitlani CM, Smith JA, Taylor KD, Vasan RS, Willer CJ, Wilson JG, Yanek LR, Zhao W, TOPMed Consortium, Rotter JI, Natarajan P, Peloso GM, Li Z, Lin X.",
+              "venue": "Nat Genet. 2023;55(1):154-164.",
+              "doi": "https://doi.org/10.1038/s41588-022-01225-6",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36564505/",
+              "highlight": true,
+              "citedBy": 65
+            },
+            {
+              "year": "2022",
+              "title": "A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.",
+              "authors": "Li Z, Li X, Zhou H, Gaynor SM, Selvaraj MS, Arapoglou T, Quick C, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Auer PL, Bielak LF, Bis JC, Blackwell T, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Conomos MP, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Franceschini N, Freedman BI, Goring HH, Guo X, Kalyani RR, Kooperberg C, Kral BG, Lange L, Lin B, Manichaikul A, Manning A, Martin LW, Mathias R, Meigs JB, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell J, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich S, Smith J, Taylor KD, Taub M, Vasan RS, Weeks D, Wilson J, Yanek L, Zhao W, TOPMed Group, Rotter J, Willer C, Natarajan P, Peloso G, Lin X.",
+              "venue": "Nat Methods. 2022;19:1599-1611.",
+              "doi": "https://doi.org/10.1038/s41592-022-01640-x",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 114
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "Epigenomics": {
+      "route": "/research/epigenomics",
+      "kicker": "EBV-associated cancer biology",
+      "title": "Epigenomics",
+      "lede": "Integrative functional genomics of Epstein-Barr virus regulation, host chromatin, and cancer-relevant transcriptional programs.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "Epigenomics",
+          "lede": "This research connects viral oncoproteins, host transcription factors, super-enhancers, enhancer RNAs, and three-dimensional chromatin organization to explain how EBV remodels B-cell regulatory programs.",
+          "tags": [
+            "EBV Oncoproteins",
+            "EBV Super Enhancers",
+            "EBV Regulome"
+          ],
+          "alt": false,
+          "prose": "<ul><li>Mapped EBV oncoprotein super-enhancers that control B-cell growth.</li><li>Built an EBV regulome linking viral and host regulatory elements to target genes.</li><li>Studied enhancer RNAs and long-range regulatory interactions that support MYC expression and lymphoblast proliferation.</li><li>Integrated ChIP-seq, RNA-seq, enhancer maps, and chromatin conformation data.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/EBVregulome.jpg",
+          "imageAlt": "Epigenomics figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2017",
+              "title": "The Epstein-Barr virus regulome in lymphoblastoid cells.",
+              "authors": "Jiang S, Zhou H*, Liang J, Gerdt C, Wang C, Ke L, Schmidt SC, Narita Y, Ma Y, Wang S, Colson T.",
+              "venue": "Cell Host Microbe. 2017;22(4):561-573.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 128
+            },
+            {
+              "year": "2015",
+              "title": "Epstein-Barr virus oncoprotein super-enhancers control B cell growth.",
+              "authors": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B.",
+              "venue": "Cell Host Microbe. 2015;17(2):205-216.",
+              "doi": "https://doi.org/10.1016/j.chom.2014.12.013",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25639793/",
+              "highlight": true,
+              "citedBy": 187
+            },
+            {
+              "year": "2016",
+              "title": "Epstein-Barr virus super-enhancer eRNAs are essential for MYC oncogene expression and lymphoblast proliferation.",
+              "authors": "Liang J, Zhou H, Gerdt C, Tan M, Colson T, Kaye KM, Kieff E, Zhao B.",
+              "venue": "Proc Natl Acad Sci U S A. 2016;113(49):14121-14126.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 90
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "EBV_Oncoproteins": {
+      "route": "/research/ebv-oncoproteins",
+      "kicker": "Viral transcriptional regulation",
+      "title": "EBV Oncoproteins",
+      "lede": "Genome-wide studies of EBV nuclear antigens and latent membrane proteins that rewire B-cell transcription.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "EBV Oncoproteins",
+          "lede": "EBV oncoproteins coordinate with host transcription factors to activate promoters and enhancers, alter chromatin states, and support lymphoblastoid cell growth. This project area focuses on the regulatory logic of EBNA-LP, EBNA2, EBNA3 proteins, and LMP1/LMP2A-driven programs.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>EBNA-LP localization to promoters and enhancers with cell transcription factors and EBNA2.</li><li>EBNA3A and EBNA3C occupancy through BATF/IRF4 composite sites.</li><li>LMP1-mediated signaling through NF-kappaB and TRAF1 pathways.</li><li>Mouse and cell-line systems for EBV-driven lymphoproliferative biology.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/EBNALP.jpg",
+          "imageAlt": "EBV Oncoproteins figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2018",
+              "title": "Epstein-Barr Virus Nuclear Antigen Leader Protein coactivates EP300.",
+              "authors": "Wang C, Zhou H*, Xue Y, Liang J, Narita Y, Gerdt C, Zheng AY, Jiang R, Trudeau S, Peng CW, Gewurz BE.",
+              "venue": "J Virol. 2018;92(9):e02155-17.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 28
+            },
+            {
+              "year": "2013",
+              "title": "Epstein-Barr virus nuclear antigen leader protein localizes to promoters and enhancers with cell transcription factors and EBNA2.",
+              "authors": "Portal D*, Zhou H*, Zhao B, Kharchenko PV, Lowry E, Wong L, Quackenbush J, Holloway D, Jiang S, Lu Y, Kieff E.",
+              "venue": "Proc Natl Acad Sci U S A. 2013;110(46):18537-18542.",
+              "doi": "https://doi.org/10.1073/pnas.1317608110",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24167291/",
+              "highlight": true,
+              "citedBy": 76
+            },
+            {
+              "year": "2017",
+              "title": "Mouse model of Epstein-Barr virus LMP1- and LMP2A-driven germinal center B-cell lymphoproliferative disease.",
+              "authors": "Minamitani T, Ma Y, Zhou H, Kida H, Tsai CY, Obana M, Okuzaki D, Fujio Y, Kumanogoh A, Zhao B, Kikutani H.",
+              "venue": "Proc Natl Acad Sci U S A. 2017;114(18):4751-4756.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 62
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "EBV_Super_Enhancers": {
+      "route": "/research/super-enhancers",
+      "kicker": "Enhancer control of oncogenic growth",
+      "title": "EBV Super Enhancers",
+      "lede": "Studies of EBV-activated super-enhancers, enhancer RNAs, and oncogene regulation in lymphoblastoid cells.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "EBV Super Enhancers",
+          "lede": "Super-enhancers are clusters of regulatory elements with unusually strong transcription-factor and histone-acetylation signals. In EBV-transformed cells, viral and host transcription factors organize super-enhancers near genes such as MYC and BCL2, helping establish growth and survival programs.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>Identified EBV oncoprotein super-enhancers in lymphoblastoid cells.</li><li>Linked EBV super-enhancer activity to B-cell growth and survival genes.</li><li>Studied enhancer RNAs from EBV super-enhancers and their role in MYC expression.</li><li>Connected viral transcriptional programs with host enhancer biology.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/EBV_Super_Enhancers.jpg",
+          "imageAlt": "EBV Super Enhancers figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2015",
+              "title": "Epstein-Barr virus oncoprotein super-enhancers control B cell growth.",
+              "authors": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B.",
+              "venue": "Cell Host Microbe. 2015;17(2):205-216.",
+              "doi": "https://doi.org/10.1016/j.chom.2014.12.013",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25639793/",
+              "highlight": true,
+              "citedBy": 187
+            },
+            {
+              "year": "2016",
+              "title": "Epstein-Barr virus super-enhancer eRNAs are essential for MYC oncogene expression and lymphoblast proliferation.",
+              "authors": "Liang J, Zhou H, Gerdt C, Tan M, Colson T, Kaye KM, Kieff E, Zhao B.",
+              "venue": "Proc Natl Acad Sci U S A. 2016;113(49):14121-14126.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 90
+            },
+            {
+              "year": "2017",
+              "title": "Nasopharyngeal carcinoma super-enhancer-driven ETV6 correlates with prognosis.",
+              "authors": "Ke L, Zhou H, Wang C, Xiong G, Xiang Y, Ling Y, Khabir A, Tsao GS, Zeng Y, Zeng M, Busson P.",
+              "venue": "Proc Natl Acad Sci U S A. 2017;114(36):9683-9688.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 82
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "EBV_Regulome": {
+      "route": "/research/ebv-regulome",
+      "kicker": "3D genome and regulatory networks",
+      "title": "EBV Regulome",
+      "lede": "A systems-level view of how EBV regulatory elements, host enhancers, genes, and chromatin contacts coordinate lymphoblastoid cell programs.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "EBV Regulome",
+          "lede": "The EBV regulome integrates enhancer maps, transcription factor occupancy, chromatin conformation, and gene expression to connect viral and host regulatory elements with target genes. This work helps explain how EBV reshapes host gene control and identifies regulatory dependencies in transformed B cells.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>Constructed a comprehensive EBV regulome in lymphoblastoid cells.</li><li>Linked viral and cellular genes with enhancers through 3D genome organization.</li><li>Connected EBV enhancer looping with MYC regulatory control.</li><li>Provided a network view of EBV-associated transcriptional dependencies.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/EBVregulome.jpg",
+          "imageAlt": "EBV Regulome figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2017",
+              "title": "The Epstein-Barr virus regulome in lymphoblastoid cells.",
+              "authors": "Jiang S, Zhou H*, Liang J, Gerdt C, Wang C, Ke L, Schmidt SC, Narita Y, Ma Y, Wang S, Colson T.",
+              "venue": "Cell Host Microbe. 2017;22(4):561-573.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 128
+            },
+            {
+              "year": "2020",
+              "title": "Epstein-Barr virus episome physically interacts with active regions of the host genome in lymphoblastoid cells.",
+              "authors": "Wang L, Laing J, Yan B, Zhou H, Ke L, Wang C, Narita Y, Zhang Z, Olson MR, Afzali B, Zhao B.",
+              "venue": "J Virol. 2020;94(24):e01390-20.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 50
+            },
+            {
+              "year": "2015",
+              "title": "Epstein-Barr virus oncoprotein super-enhancers control B cell growth.",
+              "authors": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B.",
+              "venue": "Cell Host Microbe. 2015;17(2):205-216.",
+              "doi": "https://doi.org/10.1016/j.chom.2014.12.013",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25639793/",
+              "highlight": true,
+              "citedBy": 187
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "PPIs": {
+      "route": "/research/protein-interactions",
+      "kicker": "Computational systems biology",
+      "title": "Protein-Protein Interactions",
+      "lede": "Computational prediction, assessment, and biological interpretation of protein-protein interaction networks.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "Protein-Protein Interactions",
+          "lede": "Protein interaction networks provide hypotheses for biological function, host-pathogen mechanisms, and drug-target discovery. This project area includes homology-based and domain-domain-interaction approaches, quality assessment of interaction datasets, and pathway-level integration.",
+          "tags": [
+            "Intra-Species PPIs",
+            "Host-Pathogen PPIs",
+            "Protein Functions and Pathways"
+          ],
+          "alt": false,
+          "prose": "<ul><li>Predicted H. sapiens-M. tuberculosis H37Rv host-pathogen interactions using stringent homology-based methods.</li><li>Evaluated M. tuberculosis H37Rv protein interaction datasets for reliability and utility.</li><li>Developed domain-informed approaches to improve PPI prediction specificity.</li><li>Integrated pathway and functional data through IntPath and related tools.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/Homology.jpg",
+          "imageAlt": "Protein-Protein Interactions figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2014",
+              "title": "Stringent homology-based prediction of H. sapiens-M. tuberculosis H37Rv protein-protein interactions.",
+              "authors": "Zhou H, Gao S, Nguyen NN, Fan M, Jin J, Liu B, Zhao L, Xiong G, Tan M, Li S, Wong L.",
+              "venue": "Biol Direct. 2014;9:5.",
+              "doi": "https://doi.org/10.1186/1745-6150-9-5",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 74
+            },
+            {
+              "year": "2011",
+              "title": "Comparative analysis and assessment of M. tuberculosis H37Rv protein-protein interaction datasets.",
+              "authors": "Zhou H, Wong L.",
+              "venue": "BMC Genomics. 2011;12 Suppl 3:S20.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 32
+            },
+            {
+              "year": "2013",
+              "title": "Progress in computational studies of host-pathogen interactions.",
+              "authors": "Zhou H, Jin J, Wong L.",
+              "venue": "J Bioinform Comput Biol. 2013;11(2):1230001.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 0
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "IntraPPIs": {
+      "route": "/research/intra-species-ppis",
+      "kicker": "Network quality and functional inference",
+      "title": "Intra-Species PPIs",
+      "lede": "Assessment and use of protein interaction networks within organisms, with emphasis on M. tuberculosis H37Rv datasets.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "Intra-Species PPIs",
+          "lede": "Intra-species protein interaction maps are valuable but variable in quality. This work evaluates benchmark consistency, precision, recall, and network properties so downstream biological inference rests on better-characterized evidence.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>Compared major M. tuberculosis H37Rv PPI datasets against benchmark interactions.</li><li>Analyzed overlap, precision, recall, and network structure across predicted datasets.</li><li>Supported more careful use of PPI datasets in functional studies.</li><li>Connected interaction networks with pathway-level biological interpretation.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/mtbppi1.jpg",
+          "imageAlt": "Intra-Species PPIs figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2011",
+              "title": "Comparative analysis and assessment of M. tuberculosis H37Rv protein-protein interaction datasets.",
+              "authors": "Zhou H, Wong L.",
+              "venue": "BMC Genomics. 2011;12 Suppl 3:S20.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 32
+            },
+            {
+              "year": "2013",
+              "title": "Progress in computational studies of host-pathogen interactions.",
+              "authors": "Zhou H, Jin J, Wong L.",
+              "venue": "J Bioinform Comput Biol. 2013;11(2):1230001.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 0
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "Host-Pathogen-PPIs": {
+      "route": "/research/host-pathogen-ppis",
+      "kicker": "Interfaces between infection and computation",
+      "title": "Host-Pathogen PPIs",
+      "lede": "Prediction of interactions between host and pathogen proteins to generate hypotheses about infection mechanisms and potential targets.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "Host-Pathogen PPIs",
+          "lede": "Host-pathogen interaction prediction is difficult because protein interfaces, evolutionary distance, and pathogen-specific biology all matter. This work emphasizes stringent prediction rules and interpretable network analysis for H. sapiens-M. tuberculosis interactions.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>Developed stringent homology-based prediction of human-M. tuberculosis protein interactions.</li><li>Incorporated differences between eukaryotic and prokaryotic proteins and between inter-species and intra-species interaction interfaces.</li><li>Analyzed host and pathogen hub proteins in predicted interaction networks.</li><li>Generated hypotheses for infection biology and target prioritization.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/DDI.jpg",
+          "imageAlt": "Host-Pathogen PPIs figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2014",
+              "title": "Stringent homology-based prediction of H. sapiens-M. tuberculosis H37Rv protein-protein interactions.",
+              "authors": "Zhou H, Gao S, Nguyen NN, Fan M, Jin J, Liu B, Zhao L, Xiong G, Tan M, Li S, Wong L.",
+              "venue": "Biol Direct. 2014;9:5.",
+              "doi": "https://doi.org/10.1186/1745-6150-9-5",
+              "pubmed": "",
+              "highlight": true,
+              "citedBy": 74
+            },
+            {
+              "year": "2013",
+              "title": "Progress in computational studies of host-pathogen interactions.",
+              "authors": "Zhou H, Jin J, Wong L.",
+              "venue": "J Bioinform Comput Biol. 2013;11(2):1230001.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 0
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "Protein-functions": {
+      "route": "/research/protein-functions",
+      "kicker": "Pathway data integration",
+      "title": "Protein Functions and Pathways",
+      "lede": "Integrated pathway and gene relationship resources that support systems-level interpretation across model organisms and pathogens.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "Protein Functions and Pathways",
+          "lede": "Pathway databases often differ in identifiers, relationship types, organism coverage, and data formats. IntPath was designed to improve compatibility and comprehensiveness for pathway gene relationships, enabling broader computational biology applications.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>Built IntPath as an integrated pathway gene relationship database.</li><li>Unified pathway data across model organisms and important pathogens.</li><li>Supported downstream analysis for computational biology and systems medicine.</li><li>Connected pathway relationships with protein function and interaction networks.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/portfolio/intpath1.jpg",
+          "imageAlt": "Protein Functions and Pathways figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2012",
+              "title": "IntPath: an integrated pathway gene relationship database for model organisms and important pathogens.",
+              "authors": "Zhou H, Jin J, Zhang H, Yi B, Wozniak M, Wong L.",
+              "venue": "BMC Syst Biol. 2012;6 Suppl 2:S2.",
+              "doi": "https://doi.org/10.1186/1752-0509-6-S2-S2",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 50
+            },
+            {
+              "year": "2014",
+              "title": "LipidGO: database for lipid-related GO terms and applications.",
+              "authors": "Fan M, Low HS, Zhou H, Wenk MR, Wong L.",
+              "venue": "Bioinformatics. 2014;30(7):1043-1044.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 3
+            },
+            {
+              "year": "2013",
+              "title": "Progress in computational studies of host-pathogen interactions.",
+              "authors": "Zhou H, Jin J, Wong L.",
+              "venue": "J Bioinform Comput Biol. 2013;11(2):1230001.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 0
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    },
+    "AI_Genomics": {
+      "route": "/research/ai-genomics",
+      "kicker": "Machine learning for biomedical data",
+      "title": "AI Genomics and Digital Pathology",
+      "lede": "AI agents and machine-learning systems for pathogenic variant annotation, IGVF ecosystem analysis, large-scale WGS quality control, multi-omic integration, and digital pathology risk prediction.",
+      "heroActions": [],
+      "heroStats": [],
+      "heroImage": "",
+      "sections": [
+        {
+          "kicker": "Overview",
+          "heading": "AI Genomics and Digital Pathology",
+          "lede": "This direction builds local, auditable AI agents for biomedical discovery while staying grounded in statistical genetics, functional genomics, and disease biology. IGVFagent is a concrete example: an agent for discovering, retrieving, and analyzing data from the IGVF Portal, Catalog, Knowledge Graph, and related resources such as ENCODE and FAVOR through a Plan-Action-Results-Evaluation loop.",
+          "tags": [],
+          "alt": false,
+          "prose": "<ul><li>IGVFagent: a local, auditable agent for structured knowledge-graph queries, portal and catalog retrieval, public-resource integration, analysis, tool use, and evidence checking.</li><li>Agent orchestration that makes the reasoning path inspectable through Plan, Action, Results, and Evaluation stages.</li><li>Pathogenic noncoding variant annotation using statistical and neural-network models that integrate epigenetic marks, conservation, microRNA binding, and other multi-omic data.</li><li>Automated WGS quality-control pipelines with variant-level and sample-level filters, anomaly detection, and batch-effect checks.</li><li>Digital pathology work using H&amp;E whole-slide images for tumor-region localization and 10-year progression-risk stratification in ER-positive, lymph-node-negative breast cancer.</li><li>Graph-based and machine-learning approaches for regulatory-network reconstruction, protein-protein interaction modeling, pathway enrichment, and clinical multi-omic analysis.</li></ul>",
+          "cards": [],
+          "stats": [],
+          "publications": [],
+          "actions": [],
+          "image": "/images/STAARpipe2.jpg",
+          "imageAlt": "AI Genomics and Digital Pathology figure"
+        },
+        {
+          "kicker": "Publications",
+          "heading": "Related work",
+          "lede": "Representative publications connected to this project.",
+          "tags": [],
+          "alt": true,
+          "prose": "",
+          "cards": [],
+          "stats": [],
+          "publications": [
+            {
+              "year": "2024",
+              "title": "Deciphering the impact of genomic variation on function.",
+              "authors": "IGVF Consortium.",
+              "venue": "Nature. 2024;633(8028):47-57.",
+              "doi": "https://doi.org/10.1038/s41586-024-07510-0",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39232149/",
+              "highlight": false,
+              "citedBy": 93
+            },
+            {
+              "year": "2024",
+              "title": "FAVOR-GPT: a generative natural language interface to whole genome variant functional annotations.",
+              "authors": "Li TC, Zhou H, Verma V, Tang X, Shao Y, Van Buren E, Weng Z, Gerstein M, Neale B, Sunyaev SR, Lin X.",
+              "venue": "Bioinform Adv. 2024;4(1):vbae143.",
+              "doi": "https://doi.org/10.1093/bioadv/vbae143",
+              "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39387060/",
+              "highlight": true,
+              "citedBy": 10
+            },
+            {
+              "year": "2022",
+              "title": "A multi-dimensional integrative scoring framework for predicting functional variants in the human genome.",
+              "authors": "Li X, Yung G, Zhou H, Sun R, Li Z, Hou K, Zhang MJ, Liu Y, Arapoglou T, Wang C, Ionita-Laza I, Lin X.",
+              "venue": "Am J Hum Genet. 2022;109(3):446-456.",
+              "doi": "",
+              "pubmed": "",
+              "highlight": false,
+              "citedBy": 3
+            }
+          ],
+          "actions": [],
+          "image": null,
+          "imageAlt": ""
+        }
+      ]
+    }
+  },
+  "publications": [
+    {
+      "year": "2026",
+      "title": "Scalable and accurate rare-variant association tests for whole genome sequencing time-to-event analysis in large biobanks.",
+      "authors": "Song S, Li X, Zhou H, Li Z, Lin X.",
+      "venue": "Proc Natl Acad Sci U S A. 2026;123(9):e2525288123.",
+      "doi": "https://doi.org/10.1073/pnas.2525288123",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41758668/",
+      "highlight": true,
+      "citedBy": 0
+    },
+    {
+      "year": "2026",
+      "title": "Comparison of variant callers using 60,532 multi-ancestry whole genome sequences.",
+      "authors": "Zhou H, Li Z, Shyr D, Li X, Yang H, Dey R, Tang Y, Maier R, Boerwinkle E, Buyske S, Daly M, Felsenfeld A, Gibbs RA, Gupta N, Hall IM, Matise T, Metcalf GA, Smith A, Reeves C, Sofia HJ, Stitziel NO, Zody MC, NHGRI Genome Sequencing Program Consortium, Neale B, Lin X.",
+      "venue": "Brief Bioinform. 2026;27(2).",
+      "doi": "https://doi.org/10.1093/bib/bbag130",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41894165/",
+      "highlight": true,
+      "citedBy": 0
+    },
+    {
+      "year": "2026",
+      "title": "cellSTAAR: incorporating single-cell-sequencing-based functional data to boost power in rare variant association testing of noncoding regions.",
+      "authors": "Van Buren E, Zhang Y, Li X, Selvaraj MS, Li Z, Zhou H, Palmer ND, Arnett DK, Blangero J, Boerwinkle E, Cade BE, Carlson JC, Carson AP, Chen YI, Curran J, Duggirala R, Fornage M, Franceschini N, Graff M, Gu C, Guo X, He J, Heard-Cosa N, Hou L, Hung YJ, Kalyani RR, Kardia SLR, Kenny E, Kooperberg C, Kral BG, Lange L, Levy D, Li C, Liu S, Lloyd-Jones D, Loos RJF, Manichaikul AW, Martin LW, Mathias R, Minster RL, Mitchell BD, Mychaleckyj JC, Naseri T, North K, O'Connell J, Perry JA, Peyser PA, Psaty BM, Raffield LM, Vasan RS, Redline S, Reiner AP, Rich SS, Smith JA, Spitzer B, Tang H, Taylor KD, Tracy R, Viali S, Yanek L, Zhao W, NHLBI TOPMed Consortium, Rotter JI, Peloso GM, Natarajan P, Lin X.",
+      "venue": "Nat Methods. 2026;23(2):338-349.",
+      "doi": "https://doi.org/10.1038/s41592-025-02919-5",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41476111/",
+      "highlight": true,
+      "citedBy": 2
+    },
+    {
+      "year": "2026",
+      "title": "FAVOR 2.0: A reengineered functional annotation of variants online resource for interpreting genomic variation.",
+      "authors": "Zhou H, Verma V, Li X, Li Z, Shedd N, Li TC, Yang H, Zhang A, Borsari B, Buyske S, Gerstein M, Matise T, Zody MC, Neale B, Weng Z, Sunyaev SR, Lin X.",
+      "venue": "Nucleic Acids Res. 2026;54(D1):D1405-D1414.",
+      "doi": "https://doi.org/10.1093/nar/gkaf1217",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41335103/",
+      "highlight": true,
+      "citedBy": 2
+    },
+    {
+      "year": "2025",
+      "title": "A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies.",
+      "authors": "Li X, Chen H, Selvaraj MS, Van Buren E, Zhou H, Wang Y, Sun R, McCaw ZR, Yu Z, Jiang MZ, DiCorpo D, Gaynor SM, Dey R, Arnett DK, Benjamin EJ, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Carson AP, Carlson JC, Chami N, Chen YI, Curran JE, de Vries PS, Fornage M, Franceschini N, Freedman BI, Gu C, Heard-Costa NL, He J, Hou L, Hung YJ, Irvin MR, Kaplan RC, Kardia SLR, Kelly TN, Konigsberg I, Kooperberg C, Kral BG, Li C, Li Y, Lin H, Liu CT, Loos RJF, Mahaney MC, Martin LW, Mathias RA, Mitchell BD, Montasser ME, Morrison AC, Naseri T, North KE, Palmer ND, Peyser PA, Psaty BM, Redline S, Reiner AP, Rich SS, Sitlani CM, Smith JA, Taylor KD, Tiwari HK, Vasan RS, Viali S, Wang Z, Wessel J, Yanek LR, Yu B, NHLBI TOPMed Consortium, Dupuis J, Meigs JB, Auer PL, Raffield LM, Manning AK, Rice KM, Rotter JI, Peloso GM, Natarajan P, Li Z, Liu Z, Lin X.",
+      "venue": "Nat Comput Sci. 2025;5(2):125-143.",
+      "doi": "https://doi.org/10.1038/s43588-024-00764-8",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39920506/",
+      "highlight": true,
+      "citedBy": 10
+    },
+    {
+      "year": "2024",
+      "title": "FAVOR-GPT: a generative natural language interface to whole genome variant functional annotations.",
+      "authors": "Li TC, Zhou H, Verma V, Tang X, Shao Y, Van Buren E, Weng Z, Gerstein M, Neale B, Sunyaev SR, Lin X.",
+      "venue": "Bioinform Adv. 2024;4(1):vbae143.",
+      "doi": "https://doi.org/10.1093/bioadv/vbae143",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39387060/",
+      "highlight": true,
+      "citedBy": 10
+    },
+    {
+      "year": "2023",
+      "title": "FAVOR: functional annotation of variants online resource and annotator for variation across the human genome.",
+      "authors": "Zhou H, Arapoglou T, Li X, Li Z, Zheng X, Moore J, Asok A, Kumar S, Blue EE, Buyske S, Cox N, Felsenfeld A, Gerstein M, Kenny E, Li B, Matise T, Philippakis A, Rehm HL, Sofia HJ, Snyder G, Weng Z, Neale B, Sunyaev SR, Lin X.",
+      "venue": "Nucleic Acids Res. 2023;51(D1):D1300-D1311.",
+      "doi": "https://doi.org/10.1093/nar/gkac966",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36350676/",
+      "highlight": true,
+      "citedBy": 150
+    },
+    {
+      "year": "2023",
+      "title": "Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies.",
+      "authors": "Li X, Quick C, Zhou H, Gaynor SM, Liu Y, Chen H, Selvaraj MS, Sun R, Dey R, Arnett DK, Bielak LF, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Freedman BI, Goring HH, Guo X, Haessler J, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Manichaikul A, Martin LW, McGarvey ST, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Sitlani CM, Smith JA, Taylor KD, Vasan RS, Willer CJ, Wilson JG, Yanek LR, Zhao W, TOPMed Consortium, Rotter JI, Natarajan P, Peloso GM, Li Z, Lin X.",
+      "venue": "Nat Genet. 2023;55(1):154-164.",
+      "doi": "https://doi.org/10.1038/s41588-022-01225-6",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36564505/",
+      "highlight": true,
+      "citedBy": 65
+    },
+    {
+      "year": "2022",
+      "title": "A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.",
+      "authors": "Li Z, Li X, Zhou H, Gaynor SM, Selvaraj MS, Arapoglou T, Quick C, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Auer PL, Bielak LF, Bis JC, Blackwell T, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Conomos MP, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Franceschini N, Freedman BI, Goring HH, Guo X, Kalyani RR, Kooperberg C, Kral BG, Lange L, Lin B, Manichaikul A, Manning A, Martin LW, Mathias R, Meigs JB, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell J, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich S, Smith J, Taylor KD, Taub M, Vasan RS, Weeks D, Wilson J, Yanek L, Zhao W, TOPMed Group, Rotter J, Willer C, Natarajan P, Peloso G, Lin X.",
+      "venue": "Nat Methods. 2022;19:1599-1611.",
+      "doi": "https://doi.org/10.1038/s41592-022-01640-x",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 114
+    },
+    {
+      "year": "2020",
+      "title": "Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.",
+      "authors": "Li X, Li Z, Zhou H, Gaynor SM, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Aslibekyan S, Ballantyne CM, Bielak LF, Blangero J, Boerwinkle E, Bowden DW, Broome JG, Conomos MP, Correa A, Cupples LA, Curran JE, Freedman BI, Guo X, Hindy G, Irvin MR, Kardia SLR, Kathiresan S, Khan AT, Kooperberg CL, Laurie CC, Liu XS, Mahaney MC, Manichaikul AW, Martin LW, Mathias RA, McGarvey ST, Mitchell BD, Montasser ME, Moore J, Morrison AC, O'Connell JR, Palmer ND, Pampana A, Peralta JM, Peyser PA, Psaty BM, Redline S, Rice KM, Rich SS, Smith JA, Tiwari HK, Tsai MY, Vasan RS, Wang FF, Weeks DE, Weng Z, Wilson JG, Yanek LR, TOPMed Consortium, Neale BM, Sunyaev SR, Abecasis GR, Rotter JI, Willer CJ, Peloso GM, Natarajan P, Lin X.",
+      "venue": "Nat Genet. 2020;52(9):969-983.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 300
+    },
+    {
+      "year": "2018",
+      "title": "Epstein-Barr Virus Nuclear Antigen Leader Protein coactivates EP300.",
+      "authors": "Wang C, Zhou H*, Xue Y, Liang J, Narita Y, Gerdt C, Zheng AY, Jiang R, Trudeau S, Peng CW, Gewurz BE.",
+      "venue": "J Virol. 2018;92(9):e02155-17.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 28
+    },
+    {
+      "year": "2017",
+      "title": "The Epstein-Barr virus regulome in lymphoblastoid cells.",
+      "authors": "Jiang S, Zhou H*, Liang J, Gerdt C, Wang C, Ke L, Schmidt SC, Narita Y, Ma Y, Wang S, Colson T.",
+      "venue": "Cell Host Microbe. 2017;22(4):561-573.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 128
+    },
+    {
+      "year": "2015",
+      "title": "Epstein-Barr virus oncoprotein super-enhancers control B cell growth.",
+      "authors": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B.",
+      "venue": "Cell Host Microbe. 2015;17(2):205-216.",
+      "doi": "https://doi.org/10.1016/j.chom.2014.12.013",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25639793/",
+      "highlight": true,
+      "citedBy": 187
+    },
+    {
+      "year": "2014",
+      "title": "Stringent homology-based prediction of H. sapiens-M. tuberculosis H37Rv protein-protein interactions.",
+      "authors": "Zhou H, Gao S, Nguyen NN, Fan M, Jin J, Liu B, Zhao L, Xiong G, Tan M, Li S, Wong L.",
+      "venue": "Biol Direct. 2014;9:5.",
+      "doi": "https://doi.org/10.1186/1745-6150-9-5",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 74
+    },
+    {
+      "year": "2013",
+      "title": "Epstein-Barr virus nuclear antigen leader protein localizes to promoters and enhancers with cell transcription factors and EBNA2.",
+      "authors": "Portal D*, Zhou H*, Zhao B, Kharchenko PV, Lowry E, Wong L, Quackenbush J, Holloway D, Jiang S, Lu Y, Kieff E.",
+      "venue": "Proc Natl Acad Sci U S A. 2013;110(46):18537-18542.",
+      "doi": "https://doi.org/10.1073/pnas.1317608110",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24167291/",
+      "highlight": true,
+      "citedBy": 76
+    },
+    {
+      "year": "2026",
+      "title": "Scalable and accurate rare-variant association tests for whole genome sequencing time-to-event analysis in large biobanks.",
+      "authors": "Song S, Li X, Zhou H, Li Z, Lin X.",
+      "venue": "Proc Natl Acad Sci U S A. 2026;123(9):e2525288123.",
+      "doi": "https://doi.org/10.1073/pnas.2525288123",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41758668/",
+      "highlight": true,
+      "citedBy": 0
+    },
+    {
+      "year": "2026",
+      "title": "Comparison of variant callers using 60,532 multi-ancestry whole genome sequences.",
+      "authors": "Zhou H, Li Z, Shyr D, Li X, Yang H, Dey R, Tang Y, Maier R, Boerwinkle E, Buyske S, Daly M, Felsenfeld A, Gibbs RA, Gupta N, Hall IM, Matise T, Metcalf GA, Smith A, Reeves C, Sofia HJ, Stitziel NO, Zody MC, NHGRI Genome Sequencing Program Consortium, Neale B, Lin X.",
+      "venue": "Brief Bioinform. 2026;27(2).",
+      "doi": "https://doi.org/10.1093/bib/bbag130",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41894165/",
+      "highlight": true,
+      "citedBy": 0
+    },
+    {
+      "year": "2026",
+      "title": "A multi-ancestry genetic reference for the Quebec population.",
+      "authors": "McClelland P, Femerling G, Laflamme R, Mejia-Garcia A, Sayahian Dehkordi M, Xiao H, Diaz-Papkovich A, Pelletier J, Grenier JC, Lo KS, Anderson-Trocme L, Bellavance J, Chapdelaine V, Gagnon G, De Mori A, Martinez G, Mohler K, de Malliard T, Labbe C, Labrecque M, Montpetit A, Spiegelman D, Rouleau GA, Theroux JF, Zhou H, Girard SL, Hussin JG, Laberge AM, Bherer C, Tetreault M, Gagliano Taliun SA, Taliun D, Gravel S, Lettre G.",
+      "venue": "Nat Commun. 2026;17(1):1319.",
+      "doi": "https://doi.org/10.1038/s41467-026-68820-7",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41634041/",
+      "highlight": false,
+      "citedBy": 2
+    },
+    {
+      "year": "2026",
+      "title": "cellSTAAR: incorporating single-cell-sequencing-based functional data to boost power in rare variant association testing of noncoding regions.",
+      "authors": "Van Buren E, Zhang Y, Li X, Selvaraj MS, Li Z, Zhou H, Palmer ND, Arnett DK, Blangero J, Boerwinkle E, Cade BE, Carlson JC, Carson AP, Chen YI, Curran J, Duggirala R, Fornage M, Franceschini N, Graff M, Gu C, Guo X, He J, Heard-Cosa N, Hou L, Hung YJ, Kalyani RR, Kardia SLR, Kenny E, Kooperberg C, Kral BG, Lange L, Levy D, Li C, Liu S, Lloyd-Jones D, Loos RJF, Manichaikul AW, Martin LW, Mathias R, Minster RL, Mitchell BD, Mychaleckyj JC, Naseri T, North K, O'Connell J, Perry JA, Peyser PA, Psaty BM, Raffield LM, Vasan RS, Redline S, Reiner AP, Rich SS, Smith JA, Spitzer B, Tang H, Taylor KD, Tracy R, Viali S, Yanek L, Zhao W, NHLBI TOPMed Consortium, Rotter JI, Peloso GM, Natarajan P, Lin X.",
+      "venue": "Nat Methods. 2026;23(2):338-349.",
+      "doi": "https://doi.org/10.1038/s41592-025-02919-5",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41476111/",
+      "highlight": true,
+      "citedBy": 2
+    },
+    {
+      "year": "2026",
+      "title": "FAVOR 2.0: A reengineered functional annotation of variants online resource for interpreting genomic variation.",
+      "authors": "Zhou H, Verma V, Li X, Li Z, Shedd N, Li TC, Yang H, Zhang A, Borsari B, Buyske S, Gerstein M, Matise T, Zody MC, Neale B, Weng Z, Sunyaev SR, Lin X.",
+      "venue": "Nucleic Acids Res. 2026;54(D1):D1405-D1414.",
+      "doi": "https://doi.org/10.1093/nar/gkaf1217",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41335103/",
+      "highlight": true,
+      "citedBy": 2
+    },
+    {
+      "year": "2025",
+      "title": "Genome-wide association study of early-stage non-small cell lung cancer prognosis: a pooled analysis in the International Lung Cancer Consortium.",
+      "authors": "Dong M, Thakral A, Byrne KS, Bosse Y, Zhou H, Zhang Y, Atkins J, Haycock P, Brown MC, Murison K, Timens W, Sin DD, Kothari J, Gabriel AAG, Zaridze D, Savic M, Lissowska J, Swiatkowska B, Janout V, Holcatova I, Mukeria A, Fernandez-Tardon G, Davies MPA, Triplette M, Schabath MB, Andrew AS, Chen C, Taylor F, Field JK, Tardon A, Shete SS, Brennan P, Landi MT, McKay J, Amos CI, Lin X, Christiani DC, Hung RJ, Liu G, Xu W.",
+      "venue": "Carcinogenesis. 2025;46(2):bgaf031.",
+      "doi": "https://doi.org/10.1093/carcin/bgaf031",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40746155/",
+      "highlight": false,
+      "citedBy": 1
+    },
+    {
+      "year": "2025",
+      "title": "A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies.",
+      "authors": "Li X, Chen H, Selvaraj MS, Van Buren E, Zhou H, Wang Y, Sun R, McCaw ZR, Yu Z, Jiang MZ, DiCorpo D, Gaynor SM, Dey R, Arnett DK, Benjamin EJ, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Carson AP, Carlson JC, Chami N, Chen YI, Curran JE, de Vries PS, Fornage M, Franceschini N, Freedman BI, Gu C, Heard-Costa NL, He J, Hou L, Hung YJ, Irvin MR, Kaplan RC, Kardia SLR, Kelly TN, Konigsberg I, Kooperberg C, Kral BG, Li C, Li Y, Lin H, Liu CT, Loos RJF, Mahaney MC, Martin LW, Mathias RA, Mitchell BD, Montasser ME, Morrison AC, Naseri T, North KE, Palmer ND, Peyser PA, Psaty BM, Redline S, Reiner AP, Rich SS, Sitlani CM, Smith JA, Taylor KD, Tiwari HK, Vasan RS, Viali S, Wang Z, Wessel J, Yanek LR, Yu B, NHLBI TOPMed Consortium, Dupuis J, Meigs JB, Auer PL, Raffield LM, Manning AK, Rice KM, Rotter JI, Peloso GM, Natarajan P, Li Z, Liu Z, Lin X.",
+      "venue": "Nat Comput Sci. 2025;5(2):125-143.",
+      "doi": "https://doi.org/10.1038/s43588-024-00764-8",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39920506/",
+      "highlight": true,
+      "citedBy": 10
+    },
+    {
+      "year": "2024",
+      "title": "Deciphering the impact of genomic variation on function.",
+      "authors": "IGVF Consortium.",
+      "venue": "Nature. 2024;633(8028):47-57.",
+      "doi": "https://doi.org/10.1038/s41586-024-07510-0",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39232149/",
+      "highlight": false,
+      "citedBy": 93
+    },
+    {
+      "year": "2024",
+      "title": "Whole-genome sequencing in 333,100 individuals reveals rare non-coding single variant and aggregate associations with height.",
+      "authors": "Hawkes G, Beaumont RN, Li Z, Mandla R, Li X, Albert CM, Arnett DK, Ashley-Koch AE, Ashrani AA, Barnes KC, Boerwinkle E, Brody JA, Carson AP, Chami N, Chen YI, Chung MK, Curran JE, Darbar D, Ellinor PT, Fornage M, Gordeuk VR, Guo X, He J, Hwu CM, Kalyani RR, Kaplan R, Kardia SLR, Kooperberg C, Loos RJF, Lubitz SA, Minster RL, Naseri T, Viali S, Mitchell BD, Murabito JM, Palmer ND, Psaty BM, Redline S, Shoemaker MB, Silverman EK, Telen MJ, Weiss ST, Yanek LR, Zhou H, NHLBI TOPMed Consortium, Liu CT, North KE, Justice AE, Locke JM, Owens N, Murray A, Patel K, Frayling TM, Wright CF, Wood AR, Lin X, Manning A, Weedon MN.",
+      "venue": "Nat Commun. 2024;15(1):8549.",
+      "doi": "https://doi.org/10.1038/s41467-024-52579-w",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39362880/",
+      "highlight": false,
+      "citedBy": 35
+    },
+    {
+      "year": "2024",
+      "title": "FAVOR-GPT: a generative natural language interface to whole genome variant functional annotations.",
+      "authors": "Li TC, Zhou H, Verma V, Tang X, Shao Y, Van Buren E, Weng Z, Gerstein M, Neale B, Sunyaev SR, Lin X.",
+      "venue": "Bioinform Adv. 2024;4(1):vbae143.",
+      "doi": "https://doi.org/10.1093/bioadv/vbae143",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39387060/",
+      "highlight": true,
+      "citedBy": 10
+    },
+    {
+      "year": "2024",
+      "title": "Repurposing Type I-A CRISPR-Cas3 for a robust diagnosis of human papillomavirus (HPV).",
+      "authors": "Hu T, Ji Q, Ke X, Zhou H, Zhang S, Ma S, Yu C, Ju W, Lu M, Lin Y, Ou Y, Zhou Y, Xiao Y, Xu C, Hu C.",
+      "venue": "Commun Biol. 2024;7(1):858.",
+      "doi": "https://doi.org/10.1038/s42003-024-06537-3",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39003402/",
+      "highlight": false,
+      "citedBy": 22
+    },
+    {
+      "year": "2023",
+      "title": "FAVOR: functional annotation of variants online resource and annotator for variation across the human genome.",
+      "authors": "Zhou H, Arapoglou T, Li X, Li Z, Zheng X, Moore J, Asok A, Kumar S, Blue EE, Buyske S, Cox N, Felsenfeld A, Gerstein M, Kenny E, Li B, Matise T, Philippakis A, Rehm HL, Sofia HJ, Snyder G, Weng Z, Neale B, Sunyaev SR, Lin X.",
+      "venue": "Nucleic Acids Res. 2023;51(D1):D1300-D1311.",
+      "doi": "https://doi.org/10.1093/nar/gkac966",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36350676/",
+      "highlight": true,
+      "citedBy": 150
+    },
+    {
+      "year": "2023",
+      "title": "Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies.",
+      "authors": "Li X, Quick C, Zhou H, Gaynor SM, Liu Y, Chen H, Selvaraj MS, Sun R, Dey R, Arnett DK, Bielak LF, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Freedman BI, Goring HH, Guo X, Haessler J, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Manichaikul A, Martin LW, McGarvey ST, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Sitlani CM, Smith JA, Taylor KD, Vasan RS, Willer CJ, Wilson JG, Yanek LR, Zhao W, TOPMed Consortium, Rotter JI, Natarajan P, Peloso GM, Li Z, Lin X.",
+      "venue": "Nat Genet. 2023;55(1):154-164.",
+      "doi": "https://doi.org/10.1038/s41588-022-01225-6",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36564505/",
+      "highlight": true,
+      "citedBy": 65
+    },
+    {
+      "year": "2022",
+      "title": "A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.",
+      "authors": "Li Z, Li X, Zhou H, Gaynor SM, Selvaraj MS, Arapoglou T, Quick C, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Auer PL, Bielak LF, Bis JC, Blackwell T, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Conomos MP, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Franceschini N, Freedman BI, Goring HH, Guo X, Kalyani RR, Kooperberg C, Kral BG, Lange L, Lin B, Manichaikul A, Manning A, Martin LW, Mathias R, Meigs JB, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O'Connell J, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich S, Smith J, Taylor KD, Taub M, Vasan RS, Weeks D, Wilson J, Yanek L, Zhao W, TOPMed Group, Rotter J, Willer C, Natarajan P, Peloso G, Lin X.",
+      "venue": "Nat Methods. 2022;19:1599-1611.",
+      "doi": "https://doi.org/10.1038/s41592-022-01640-x",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 114
+    },
+    {
+      "year": "2022",
+      "title": "A multi-dimensional integrative scoring framework for predicting functional variants in the human genome.",
+      "authors": "Li X, Yung G, Zhou H, Sun R, Li Z, Hou K, Zhang MJ, Liu Y, Arapoglou T, Wang C, Ionita-Laza I, Lin X.",
+      "venue": "Am J Hum Genet. 2022;109(3):446-456.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 3
+    },
+    {
+      "year": "2022",
+      "title": "AFA: ancestry-specific allele frequency estimation in admixed populations: the Hispanic Community Health Study/Study of Latinos.",
+      "authors": "Granot-Hershkovitz E, Sun Q, Argos M, Zhou H, Lin X, Browning SR, Sofer T.",
+      "venue": "Hum Genet Genom Adv. 2022;3(2):100096.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 0
+    },
+    {
+      "year": "2022",
+      "title": "Assessing the contribution of rare variants to complex trait heritability from whole-genome sequence data.",
+      "authors": "Wainschtein P, Jain D, Zheng Z, Cupples LA, Shadyab AH, McKnight B, Shoemaker BM, Mitchell BD, Psaty BM, Kooperberg C, Liu CT, et al.",
+      "venue": "Nat Genet. 2022;54(3):263-273.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 368
+    },
+    {
+      "year": "2022",
+      "title": "Upregulated heme biosynthesis increases obstructive sleep apnea severity: a pathway-based Mendelian randomization study.",
+      "authors": "Wang H, Kurniansyah N, Cade BE, Goodman MO, Chen H, Gottlieb DJ, Gharib SA, Purcell SM, Lin X, Saxena R, Zhu X.",
+      "venue": "Sci Rep. 2022;12(1):1-11.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 6
+    },
+    {
+      "year": "2021",
+      "title": "Integration of multiomic annotation data to prioritize and characterize inflammation and immune-related risk variants in squamous cell lung cancer.",
+      "authors": "Sun R, Xu M, Li X, Gaynor S, Zhou H, Li Z, Bosse Y, Lam S, Tsao MS, Tardon A, Chen C.",
+      "venue": "Genet Epidemiol. 2021;45(1):99-114.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 8
+    },
+    {
+      "year": "2021",
+      "title": "Whole-genome association analyses of sleep-disordered breathing phenotypes in the NHLBI TOPMed program.",
+      "authors": "Cade BE, Lee J, Sofer T, Wang H, Zhang M, Chen H, Gharib SA, Gottlieb DJ, Guo X, Lane JM, Liang J, et al.",
+      "venue": "Genome Med. 2021;13(1):1-17.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 35
+    },
+    {
+      "year": "2020",
+      "title": "Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.",
+      "authors": "Li X, Li Z, Zhou H, Gaynor SM, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Aslibekyan S, Ballantyne CM, Bielak LF, Blangero J, Boerwinkle E, Bowden DW, Broome JG, Conomos MP, Correa A, Cupples LA, Curran JE, Freedman BI, Guo X, Hindy G, Irvin MR, Kardia SLR, Kathiresan S, Khan AT, Kooperberg CL, Laurie CC, Liu XS, Mahaney MC, Manichaikul AW, Martin LW, Mathias RA, McGarvey ST, Mitchell BD, Montasser ME, Moore J, Morrison AC, O'Connell JR, Palmer ND, Pampana A, Peralta JM, Peyser PA, Psaty BM, Redline S, Rice KM, Rich SS, Smith JA, Tiwari HK, Tsai MY, Vasan RS, Wang FF, Weeks DE, Weng Z, Wilson JG, Yanek LR, TOPMed Consortium, Neale BM, Sunyaev SR, Abecasis GR, Rotter JI, Willer CJ, Peloso GM, Natarajan P, Lin X.",
+      "venue": "Nat Genet. 2020;52(9):969-983.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 300
+    },
+    {
+      "year": "2020",
+      "title": "Epstein-Barr virus episome physically interacts with active regions of the host genome in lymphoblastoid cells.",
+      "authors": "Wang L, Laing J, Yan B, Zhou H, Ke L, Wang C, Narita Y, Zhang Z, Olson MR, Afzali B, Zhao B.",
+      "venue": "J Virol. 2020;94(24):e01390-20.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 50
+    },
+    {
+      "year": "2020",
+      "title": "De novo mutations across 1,465 diverse genomes reveal mutational insights and reductions in the Amish founder population.",
+      "authors": "Kessler MD, Loesch DP, Perry JA, Heard-Costa NL, Taliun D, Cade BE, Wang H, Daya M, Ziniti J, Datta S, Celedon JC, et al.",
+      "venue": "Proc Natl Acad Sci U S A. 2020;117(5):2560-2569.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 112
+    },
+    {
+      "year": "2019",
+      "title": "Dynamic scan procedure for detecting rare-variant association regions in whole-genome sequencing studies.",
+      "authors": "Li Z, Li X, Liu Y, Shen J, Chen H, Zhou H, Morrison AC, Boerwinkle E, Lin X.",
+      "venue": "Am J Hum Genet. 2019;104(5):802-814.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 0
+    },
+    {
+      "year": "2018",
+      "title": "Epstein-Barr Virus Nuclear Antigen Leader Protein coactivates EP300.",
+      "authors": "Wang C, Zhou H*, Xue Y, Liang J, Narita Y, Gerdt C, Zheng AY, Jiang R, Trudeau S, Peng CW, Gewurz BE.",
+      "venue": "J Virol. 2018;92(9):e02155-17.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 28
+    },
+    {
+      "year": "2018",
+      "title": "Haemophilus parasuis infection disrupts adherens junctions and initializes EMT dependent on canonical Wnt/beta-catenin signaling pathway.",
+      "authors": "Hua K, Li Y, Zhou H, Hu X, Chen Y, He R, Luo R, Zhou R, Bi D, Jin H.",
+      "venue": "Front Cell Infect Microbiol. 2018;8:324.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false
+    },
+    {
+      "year": "2018",
+      "title": "Haemophilus parasuis infection activates NOD1/2-RIP2 signaling pathway in PK-15 cells.",
+      "authors": "Ma B, Hua K, Zhou S, Zhou H, Chen Y, Luo R, Bi D, Zhou R, He Q, Jin H.",
+      "venue": "Dev Comp Immunol. 2018;79:158-165.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 12
+    },
+    {
+      "year": "2017",
+      "title": "The Epstein-Barr virus regulome in lymphoblastoid cells.",
+      "authors": "Jiang S, Zhou H*, Liang J, Gerdt C, Wang C, Ke L, Schmidt SC, Narita Y, Ma Y, Wang S, Colson T.",
+      "venue": "Cell Host Microbe. 2017;22(4):561-573.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 128
+    },
+    {
+      "year": "2017",
+      "title": "Nasopharyngeal carcinoma super-enhancer-driven ETV6 correlates with prognosis.",
+      "authors": "Ke L, Zhou H, Wang C, Xiong G, Xiang Y, Ling Y, Khabir A, Tsao GS, Zeng Y, Zeng M, Busson P.",
+      "venue": "Proc Natl Acad Sci U S A. 2017;114(36):9683-9688.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 82
+    },
+    {
+      "year": "2017",
+      "title": "Identification of a nucleoside analog active against adenosine kinase-expressing plasma cell malignancies.",
+      "authors": "Nayar U, Sadek J, Reichel J, Hernandez-Hopkins D, Akar G, Barelli PJ, Sahai MA, Zhou H, Totonchy J, Jayabalan D, Niesvizky R.",
+      "venue": "J Clin Invest. 2017;127(6):2066-2080.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 10
+    },
+    {
+      "year": "2017",
+      "title": "Mouse model of Epstein-Barr virus LMP1- and LMP2A-driven germinal center B-cell lymphoproliferative disease.",
+      "authors": "Minamitani T, Ma Y, Zhou H, Kida H, Tsai CY, Obana M, Okuzaki D, Fujio Y, Kumanogoh A, Zhao B, Kikutani H.",
+      "venue": "Proc Natl Acad Sci U S A. 2017;114(18):4751-4756.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 62
+    },
+    {
+      "year": "2016",
+      "title": "Epstein-Barr virus super-enhancer eRNAs are essential for MYC oncogene expression and lymphoblast proliferation.",
+      "authors": "Liang J, Zhou H, Gerdt C, Tan M, Colson T, Kaye KM, Kieff E, Zhao B.",
+      "venue": "Proc Natl Acad Sci U S A. 2016;113(49):14121-14126.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 90
+    },
+    {
+      "year": "2015",
+      "title": "Epstein-Barr virus oncoprotein super-enhancers control B cell growth.",
+      "authors": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B.",
+      "venue": "Cell Host Microbe. 2015;17(2):205-216.",
+      "doi": "https://doi.org/10.1016/j.chom.2014.12.013",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25639793/",
+      "highlight": true,
+      "citedBy": 187
+    },
+    {
+      "year": "2015",
+      "title": "Evasion of affinity-based selection in germinal centers by Epstein-Barr virus LMP2A.",
+      "authors": "Minamitani T, Yasui T, Ma Y, Zhou H, Okuzaki D, Tsai CY, Sakakibara S, Gewurz BE, Kieff E, Kikutani H.",
+      "venue": "Proc Natl Acad Sci U S A. 2015;112(37):11612-11617.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 51
+    },
+    {
+      "year": "2015",
+      "title": "The association between indwelling arterial catheters and mortality in hemodynamically stable patients with respiratory failure: a propensity score analysis.",
+      "authors": "Hsu DJ, Feng M, Kothari R, Zhou H, Chen KP, Celi LA.",
+      "venue": "Chest. 2015;148(6):1470-1476.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false
+    },
+    {
+      "year": "2015",
+      "title": "TRAF1 coordinates polyubiquitin signaling to enhance Epstein-Barr Virus LMP1-mediated growth and survival pathway activation.",
+      "authors": "Greenfeld H, Takasaki K, Walsh MJ, Ersing I, Bernhardt K, Ma Y, Fu B, Ashbaugh CW, Cabo J, Mollo SB, Zhou H, Li S, Gewurz BE.",
+      "venue": "PLoS Pathog. 2015;11(5):e1004890.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 86
+    },
+    {
+      "year": "2015",
+      "title": "Epstein-Barr virus nuclear antigen 3A partially coincides with EBNA3C genome-wide and is tethered to DNA through BATF complexes.",
+      "authors": "Schmidt SC, Jiang S, Zhou H, Willox B, Holthaus AM, Kharchenko PV, Johannsen EC, Kieff E, Zhao B.",
+      "venue": "Proc Natl Acad Sci U S A. 2015;112(2):554-559.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 50
+    },
+    {
+      "year": "2014",
+      "title": "The NF-kappaB genomic landscape in lymphoblastoid B cells.",
+      "authors": "Zhao B, Barrera LA, Ersing I, Willox B, Schmidt SC, Greenfeld H, Zhou H, Mollo SB, Shi TT, Takasaki K, Jiang S, Cahir-McFarland E, Kellis M, Bulyk ML, Kieff E, Gewurz BE.",
+      "venue": "Cell Rep. 2014;8(5):1595-1606.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false
+    },
+    {
+      "year": "2014",
+      "title": "Epstein-Barr virus infection in Chinese children: a retrospective study of age-specific prevalence.",
+      "authors": "Xiong G, Zhang B, Huang MY, Zhou H, Chen LZ, Feng QS, Luo X, Lin HJ, Zeng YX.",
+      "venue": "PLoS One. 2014;9(6):e99857.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false
+    },
+    {
+      "year": "2014",
+      "title": "Stringent homology-based prediction of H. sapiens-M. tuberculosis H37Rv protein-protein interactions.",
+      "authors": "Zhou H, Gao S, Nguyen NN, Fan M, Jin J, Liu B, Zhao L, Xiong G, Tan M, Li S, Wong L.",
+      "venue": "Biol Direct. 2014;9:5.",
+      "doi": "https://doi.org/10.1186/1745-6150-9-5",
+      "pubmed": "",
+      "highlight": true,
+      "citedBy": 74
+    },
+    {
+      "year": "2014",
+      "title": "Epstein-Barr virus nuclear antigen 3C binds to BATF/IRF4 or SPI1/IRF4 composite sites and recruits Sin3A to repress CDKN2A.",
+      "authors": "Jiang S, Willox B, Zhou H, Holthaus AM, Wang A, Shi TT, Maruo S, Kharchenko PV, Johannsen EC, Kieff E, Zhao B.",
+      "venue": "Proc Natl Acad Sci U S A. 2014;111(1):421-426.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 91
+    },
+    {
+      "year": "2014",
+      "title": "LipidGO: database for lipid-related GO terms and applications.",
+      "authors": "Fan M, Low HS, Zhou H, Wenk MR, Wong L.",
+      "venue": "Bioinformatics. 2014;30(7):1043-1044.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 3
+    },
+    {
+      "year": "2013",
+      "title": "Epstein-Barr virus nuclear antigen leader protein localizes to promoters and enhancers with cell transcription factors and EBNA2.",
+      "authors": "Portal D*, Zhou H*, Zhao B, Kharchenko PV, Lowry E, Wong L, Quackenbush J, Holloway D, Jiang S, Lu Y, Kieff E.",
+      "venue": "Proc Natl Acad Sci U S A. 2013;110(46):18537-18542.",
+      "doi": "https://doi.org/10.1073/pnas.1317608110",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24167291/",
+      "highlight": true,
+      "citedBy": 76
+    },
+    {
+      "year": "2013",
+      "title": "Progress in computational studies of host-pathogen interactions.",
+      "authors": "Zhou H, Jin J, Wong L.",
+      "venue": "J Bioinform Comput Biol. 2013;11(2):1230001.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 0
+    },
+    {
+      "year": "2012",
+      "title": "IntPath: an integrated pathway gene relationship database for model organisms and important pathogens.",
+      "authors": "Zhou H, Jin J, Zhang H, Yi B, Wozniak M, Wong L.",
+      "venue": "BMC Syst Biol. 2012;6 Suppl 2:S2.",
+      "doi": "https://doi.org/10.1186/1752-0509-6-S2-S2",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 50
+    },
+    {
+      "year": "2011",
+      "title": "Comparative analysis and assessment of M. tuberculosis H37Rv protein-protein interaction datasets.",
+      "authors": "Zhou H, Wong L.",
+      "venue": "BMC Genomics. 2011;12 Suppl 3:S20.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 32
+    },
+    {
+      "year": "2009",
+      "title": "Transcriptional responses of Haemophilus parasuis to iron-restriction stress in vitro.",
+      "authors": "Xie Q, Jin H, Luo R, Wan Y, Chu J, Zhou H, Shi B, Chen H, Zhou R.",
+      "venue": "Biometals. 2009;22(6):907-916.",
+      "doi": "",
+      "pubmed": "",
+      "highlight": false,
+      "citedBy": 10
+    }
+  ],
+  "site": {
+    "name": "Hufeng Zhou",
+    "shortName": "HZ",
+    "discipline": "Computational Biology",
+    "role": "Research Scientist, Harvard T.H. Chan School of Public Health",
+    "email": "hufengzhou@g.harvard.edu",
+    "links": {
+      "github": "https://github.com/zhouhufeng",
+      "scholar": "https://scholar.google.com/citations?user=Ddw_B4EAAAAJ&hl=en",
+      "orcid": "https://orcid.org/0000-0001-9382-5674",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/?term=0000-0001-9382-5674",
+      "source": "https://zhouhufeng.github.io/"
+    },
+    "cv": "https://zhouhufeng.github.io/HZHOU-CV-Jan24th2026.docx"
+  },
+  "metrics": {
+    "works": 89,
+    "citedBy": 3613,
+    "hIndex": 32,
+    "i10Index": 47,
+    "updated": "2026-08-30",
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/A5065829677"
+  }
+}
