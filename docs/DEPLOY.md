@@ -1,12 +1,12 @@
 # Deploying zhou.genohub.org
 
-The site is static. It is built locally, rsynced to the the cloud node, and
+The site is static. It is built locally, rsynced to the origin node, and
 served by an nginx pod behind the K3s Traefik ingress — the same pattern as
 `lin.genohub.org`, in the same `web` namespace.
 
 ```
   you            Cloudflare              origin node (ORIGIN_IP)
-  ───            ──────────              ────────────────────────────
+  ───            ──────────              ───────────────────────
   npm run build
   rsync dist/ ──────────────────────────► /srv/zhou/releases/<ts>/
                                           /srv/zhou/current ─────┐
@@ -32,7 +32,7 @@ Or by hand, in the **genohub.org** zone → **DNS → Records → Add record**:
 |---|---|
 | Type | `A` |
 | Name | `zhou` |
-| IPv4 | `ORIGIN_IP` |
+| IPv4 | the origin IP (`ORIGIN_IP` in `.env.origin`) |
 | Proxy status | **Proxied** (orange cloud) |
 | TTL | Auto |
 
@@ -80,7 +80,7 @@ Overrides: `ORIGIN_IP`, `ORIGIN_USER`, `ORIGIN_KEY`, `REMOTE_ROOT`, `SITE_HOST`,
 
 ```bash
 # origin, bypassing Cloudflare entirely
-ssh -i ~/.ssh/origin_key ubuntu@ORIGIN_IP \
+ssh -i "$ORIGIN_KEY" "$ORIGIN_USER@$ORIGIN_IP" \
   "curl -s -H 'Host: zhou.genohub.org' http://127.0.0.1/ | grep -o '<title>[^<]*'"
 
 # through Cloudflare — content, not status code

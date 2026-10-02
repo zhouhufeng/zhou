@@ -5,7 +5,7 @@ Department of Biostatistics, Harvard T.H. Chan School of Public Health.
 
 A static React build of the content at
 [zhouhufeng.github.io](https://zhouhufeng.github.io/), with citation figures
-from OpenAlex, served from the K3s node behind the `genohub.org`
+from OpenAlex, served from our K3s node behind the `genohub.org`
 Cloudflare zone.
 
 ## Quick start
@@ -35,7 +35,7 @@ ln -sf ~/.local/opt/node/bin/{node,npm,npx} ~/.local/bin/
 ```
 
 Builds, rsyncs a timestamped release to `/srv/zhou/releases/` on
-`ORIGIN_IP`, flips the `current` symlink, and verifies at the origin and
+the origin node, flips the `current` symlink, and verifies at the origin and
 through Cloudflare — by page content, not status code, because the zone wildcard
 answers 200 for any hostname. `--rollback` moves the symlink back.
 
@@ -93,4 +93,4 @@ claim and one as an attributed external count.
 
 - Source content: <https://zhouhufeng.github.io/>
 - Lin Lab site, same node and zone: [`LinLab`](https://github.com/zhouhufeng/LinLab)
-- Infrastructure: [`infrastructure repo`]((private infrastructure repo))
+- Infrastructure: shares a node and a Cloudflare zone with FAVOR (private repo)

@@ -15,8 +15,7 @@
 #
 # TLS: like every other Ingress in this cluster, Traefik serves its self-signed
 # certificate and Cloudflare terminates for the browser. That needs the zone's
-# SSL mode on **Full**, not Full (strict) — see infrastructure repo
-# Docs/CloudFlare/config.md. It already is.
+# SSL mode on **Full**, not Full (strict). It already is.
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -139,7 +138,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.entrypoints: websecure,web
 spec:
   rules:
-    # Needs a Cloudflare A record: lin -> ORIGIN_IP, proxied.
+    # Needs a Cloudflare A record: zhou -> the origin IP, proxied.
     - host: zhou.genohub.org
       http:
         paths:

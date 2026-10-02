@@ -14,9 +14,14 @@
 # and a proxied Cloudflare A record zhou -> $ORIGIN_IP. See docs/DEPLOY.md.
 set -euo pipefail
 
-ORIGIN_IP="${ORIGIN_IP:-ORIGIN_IP}"
+# The origin's address and SSH key stay out of this public repo: put them in
+# .env.origin (git-ignored; copy .env.origin.example) or export them.
+_env="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/.env.origin"
+# shellcheck disable=SC1090
+[[ -f "$_env" ]] && source "$_env"
+: "${ORIGIN_IP:?set ORIGIN_IP in .env.origin (see .env.origin.example)}"
 ORIGIN_USER="${ORIGIN_USER:-ubuntu}"
-ORIGIN_KEY="${ORIGIN_KEY:-$HOME/.ssh/origin_key}"
+: "${ORIGIN_KEY:?set ORIGIN_KEY in .env.origin (see .env.origin.example)}"
 REMOTE_ROOT="${REMOTE_ROOT:-/srv/zhou}"
 HOSTNAME_="${SITE_HOST:-zhou.genohub.org}"
 KEEP_RELEASES="${KEEP_RELEASES:-5}"
